@@ -1,0 +1,47 @@
+Source-Makefile: feeds/shortcut_fe/fast-classifier/Makefile
+Package: kmod-fast-classifier
+Submenu: Network Support
+Version: <LINUX_VERSION>-1
+Depends: +kmod-shortcut-fe
+Menu-Depends: 
+Provides: fast-classifier
+Section: kernel
+Category: Kernel modules
+Title: Kernel driver for FAST Classifier
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: fast-classifier-.tar.gz
+Type: ipkg
+Kernel-Config: CONFIG_NF_CONNTRACK_CHAIN_EVENTS=y
+Description: FAST Classifier talks to SFE to make decisions about offloading connections
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+Config:
+	menu "Configuration"
+	depends on PACKAGE_kmod-fast-classifier
+	config SFE_3G_SUPPORT
+		bool "Sfe don't support ppp dial of 3g4gmobile to avoid kernel panic"
+		default n
+
+	endmenu
+@@
+
+Package: kmod-fast-classifier-noload
+Submenu: Network Support
+Version: <LINUX_VERSION>-1
+Depends: +kmod-shortcut-fe
+Menu-Depends: 
+Provides: fast-classifier
+Section: kernel
+Category: Kernel modules
+Title: Kernel driver for FAST Classifier
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: fast-classifier-.tar.gz
+Type: ipkg
+Kernel-Config: CONFIG_NF_CONNTRACK_CHAIN_EVENTS=y
+Description: FAST Classifier talks to SFE to make decisions about offloading connections
+
+This package does not load fast-classifier at boot by default
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

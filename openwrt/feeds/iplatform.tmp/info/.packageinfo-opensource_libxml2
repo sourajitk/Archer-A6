@@ -1,0 +1,19 @@
+Source-Makefile: feeds/iplatform/opensource/libxml2/Makefile
+Package: libxml2
+Version: 2.7.8-1
+Depends: +libc +USE_EGLIBC:librt +USE_EGLIBC:libpthread +libpthread +zlib
+Menu-Depends: 
+Provides: 
+Build-Types: host
+Section: libs
+Category: TP-LINK iplatform apps
+Title: Gnome XML library
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: libxml2-2.7.8.tar.gz
+Type: ipkg
+Description: 	A library for manipulating XML and HTML resources.
+http://xmlsoft.org/
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+
