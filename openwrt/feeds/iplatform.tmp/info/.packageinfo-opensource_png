@@ -1,0 +1,19 @@
+Source-Makefile: feeds/iplatform/opensource/png/Makefile
+Package: png
+Version: 1.2.44-2
+Depends:  
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: TP-LINK
+Category: TP-LINK iplatform apps
+Title: A lightweight C library that eases the writing of UNIX daemons
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: png-1.2.44.tar.gz
+Type: ipkg
+Description: A lightweight C library that eases the writing of UNIX daemons
+http://0pointer.de/lennart/projects/libdaemon/
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

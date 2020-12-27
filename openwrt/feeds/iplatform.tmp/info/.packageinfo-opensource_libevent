@@ -1,0 +1,18 @@
+Source-Makefile: feeds/iplatform/opensource/libevent/Makefile
+Package: libevent
+Submenu: P2P
+Version: 2.1.8-1
+Depends:  +libpthread +libopenssl
+Menu-Depends: 
+Provides: 
+Section: TP-LINK
+Category: TP-LINK iplatform apps
+Title: libevent
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Description: 	libevent
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

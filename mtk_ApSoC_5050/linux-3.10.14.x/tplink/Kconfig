@@ -1,0 +1,8 @@
+menu "TP-LINK kernel features"
+config COS_KERNEL
+	bool "use cos netlink in kernel"
+	default y
+	help
+	enable cos kernel message feature in kernel.
+
+endmenu

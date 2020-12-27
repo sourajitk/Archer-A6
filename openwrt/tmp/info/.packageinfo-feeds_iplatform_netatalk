@@ -1,0 +1,19 @@
+Source-Makefile: package/feeds/iplatform/netatalk/Makefile
+Package: netatalk
+Submenu: Filesystem
+Version: 3.1.8
+Depends:  +libgcrypt +libopenssl +bdb
+Menu-Depends: 
+Provides: 
+Section: net
+Category: Network
+Title: netatalk
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Source: 
+Type: ipkg
+Description: netatalk
+http://netatalk.sourceforge.net
+W. Michael Petullo <mike@flyn.org>
+@@
+
+

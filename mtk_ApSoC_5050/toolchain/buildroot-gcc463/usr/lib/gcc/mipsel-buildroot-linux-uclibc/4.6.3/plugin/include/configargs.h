@@ -1,0 +1,7 @@
+/* Generated automatically. */
+static const char configuration_arguments[] = "/home/tplink/Desktop/buildroot-2012.11.1/output/toolchain/gcc-4.6.3/configure --prefix=/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr --build=i686-pc-linux-gnu --host=i686-pc-linux-gnu --target=mipsel-buildroot-linux-uclibc --enable-languages=c,c++ --with-sysroot=/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr/mipsel-buildroot-linux-uclibc/sysroot --with-build-time-tools=/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr/mipsel-buildroot-linux-uclibc/bin --disable-__cxa_atexit --enable-target-optspace --disable-libgomp --with-gnu-ld --disable-libssp --disable-multilib --disable-tls --disable-shared --with-gmp=/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr --with-mpfr=/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr --with-mpc=/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr --disable-nls --enable-threads --disable-decimal-float --with-float=soft --with-abi=32 --with-tune=mips32r2 --with-pkgversion='Buildroot 2012.11.1' --with-bugurl=http://bugs.buildroot.net/";
+static const char thread_model[] = "posix";
+
+static const struct {
+  const char *name, *value;
+} configure_default_options[] = { { "abi", "32" }, { "tune", "mips32r2" }, { "float", "soft" }, { "llsc", "llsc" }, { "synci", "no-synci" } };

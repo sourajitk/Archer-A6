@@ -1,0 +1,19 @@
+Source-Makefile: package/feeds/iplatform/wifidog/Makefile
+Package: wifidog
+Menu: 1
+Version: 1.1.1-1
+Depends:  
+Menu-Depends: 
+Provides: 
+Section: opt
+Category: TP-LINK iplatform apps
+Title: Open source wifidog solution using 
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Description: Open source wifidog solution using 
+http://wifidog.net
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

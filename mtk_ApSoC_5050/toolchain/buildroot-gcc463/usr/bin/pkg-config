@@ -1,0 +1,2 @@
+#!/bin/sh
+PKG_CONFIG_LIBDIR=${PKG_CONFIG_LIBDIR:-/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr/mipsel-buildroot-linux-uclibc/sysroot/usr/lib/pkgconfig:/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr/mipsel-buildroot-linux-uclibc/sysroot/usr/share/pkgconfig} PKG_CONFIG_SYSROOT_DIR=${PKG_CONFIG_SYSROOT_DIR:-/home/leo/hd500/GPL/c6u/c6u-gpl/build/../mtk_ApSoC_5050/toolchain/buildroot-gcc463//usr/mipsel-buildroot-linux-uclibc/sysroot} $(dirname $0)/pkgconf $@

@@ -1,0 +1,3223 @@
+Package: 6rd
+Version: 2-1
+Depends: kmod-ipv6, kmod-sit
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/6rd
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Stéphan Kochen <stephan@kochen.nl>
+Architecture: model_mtk_mt762x
+Installed-Size: 3802
+Filename: 6rd_2-1_model_mtk_mt762x.ipk
+Size: 4491
+MD5Sum: 0d3b3bb7c999e91253f552a10bd11f06
+Description:  Provides support for 6rd tunnels in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: accel-pptpd
+Version: 0.8.5-1
+Depends: kmod-ppp, kmod-mppe, pppd
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/accel-pptpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 28870
+Filename: accel-pptpd_0.8.5-1_model_mtk_mt762x.ipk
+Size: 29563
+MD5Sum: 74135880e0776229c157f1c71a344e21
+Description:  ACCEL-PPTP pptp server
+
+Package: agetty
+Version: 2.21.2-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 13037
+Filename: agetty_2.21.2-1_model_mtk_mt762x.ipk
+Size: 13700
+MD5Sum: 43255aebfb90c90d5135c871788bb1a9
+Description:  agetty opens a tty port, prompts for a login name and invokes the
+ /bin/login command
+
+Package: alsa-lib
+Version: 1.0.24.1-1
+Depends: libpthread, librt
+Provides: 
+Source: package/alsa-lib
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 353313
+Filename: alsa-lib_1.0.24.1-1_model_mtk_mt762x.ipk
+Size: 350501
+MD5Sum: 59ae75772d9cf786d0034144d76737d8
+Description:  This is the library package for alsa, needed by some userspace programs.
+ You must have enabled the ALSA support in the kernel.
+
+Package: avahi-daemon
+Version: 0.6.31-5
+Depends: libavahi, libexpat, librt
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/avahi
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 26260
+Filename: avahi-daemon_0.6.31-5_model_mtk_mt762x.ipk
+Size: 27104
+MD5Sum: 86bf468a7ade15d5834f42b8dbfed979
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf) 
+ implementation (library). It facilitates 
+ service discovery on a local network -- this means that 
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with, 
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ This package contains an mDNS/DNS-SD daemon.
+
+Package: base-files
+Version: 117-unknown
+Depends: netifd, libc
+Provides: 
+Source: package/base-files
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 6594
+Filename: base-files_117-unknown_model_mtk_mt762x.ipk
+Size: 7209
+MD5Sum: cde316fde543f00c6066a1ba8e160f10
+Description:  This package contains a base filesystem and system scripts for OpenWrt.
+
+Package: base-filesystem
+Version: 1-unknown
+Depends: netifd, libc
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/base-filesystem
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 30361
+Filename: base-filesystem_1-unknown_model_mtk_mt762x.ipk
+Size: 31146
+MD5Sum: 78414a3fd193eb31b7c24efe8a0050e9
+Description:  This package contains a base filesystem and system scripts for TP-LINK.
+
+Package: bdb
+Version: 4.8.30-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/bdb
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 328068
+Filename: bdb_4.8.30-1_model_mtk_mt762x.ipk
+Size: 328215
+MD5Sum: 9577d41a90ccead836ece397e0a2bc6a
+Description:  This is Berkeley DB from Oracle.  To view release and installation documentation, 
+ load the distribution file docs/index.html into your web browser.
+
+Package: blkid
+Version: 2.21.2-1
+Depends: libblkid
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 14958
+Filename: blkid_2.21.2-1_model_mtk_mt762x.ipk
+Size: 15632
+MD5Sum: 6a2060feb9ad8f9771e7b39875ef70cd
+Description:  The blkid program is the command-line interface to working with the libblkid
+ library.
+
+Package: block-mount
+Version: 0.2.0-9
+Depends: blkid, swap-utils
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/block-mount
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 6966
+Filename: block-mount_0.2.0-9_model_mtk_mt762x.ipk
+Size: 7852
+MD5Sum: 8122f65fde11d46d368be6255509cc35
+Description:  Scripts used to mount and check block devices (filesystems and swap), as well
+ as hotplug scripts to automount and check block devices when hotplug event (e.g.
+ from plugging in a device) occurs.
+ Also includes preinit scripts for mounting a block device as the root filesystem.
+ This allows one to have the root filesystem on devices other than the built in flash
+ device.
+
+Package: bridge
+Version: 1.5-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/bridge-utils
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 15489
+Filename: bridge_1.5-1_model_mtk_mt762x.ipk
+Size: 16137
+MD5Sum: fdd842fc25feb7def7026376ee2bf2d6
+Description:  Manage ethernet bridging: a way to connect networks together to 
+ form a larger network.
+
+Package: busybox
+Version: 1.19.4-6
+Depends: common
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/busybox
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: yes
+Priority: optional
+Maintainer: Nicolas Thill <nico@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 277701
+Filename: busybox_1.19.4-6_model_mtk_mt762x.ipk
+Size: 277857
+MD5Sum: 5dbe362c14d119e4e6740ac718429bc9
+Description:  The Swiss Army Knife of embedded Linux.
+ It slices, it dices, it makes Julian Fries.
+
+Package: cal
+Version: 2.21.2-1
+Depends: libncurses
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 12656
+Filename: cal_2.21.2-1_model_mtk_mt762x.ipk
+Size: 13275
+MD5Sum: 0bda39c8eb11a87d668554d42537c057
+Description:  cal displays a simple calendar
+
+Package: conntrack-tools
+Version: 1.0.0-1
+Depends: libnetfilter-conntrack
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/conntrack-tools
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104258
+Filename: conntrack-tools_1.0.0-1_model_mtk_mt762x.ipk
+Size: 104202
+MD5Sum: 10af3f06d965b44df5a49df47a5fa72f
+Description:  The conntrack-tools are a set of free software userspace tools for Linux
+ that allow system administrators interact with the Connection Tracking
+ System, which is the module that provides stateful packet inspection for
+ iptables. The conntrack-tools are the userspace daemon conntrackd and the
+ command line interface conntrack.
+
+Package: curl
+Version: 7.29.0-1
+Depends: libcurl
+Provides: 
+Source: package/curl
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 47096
+Filename: curl_7.29.0-1_model_mtk_mt762x.ipk
+Size: 47710
+MD5Sum: 01db8058966e9d588e4aae13627922cd
+Description:  A client-side URL transfer utility
+
+Package: ddns-scripts
+Version: 1.0.0-21
+Depends: dnslookup
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/ddns-scripts
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: all
+Installed-Size: 11208
+Filename: ddns-scripts_1.0.0-21_all.ipk
+Size: 11908
+MD5Sum: 2ba86a2ad1d0327c6c9c0eac540ae262
+Description:  A highly configurable set of scripts for doing
+ dynamic dns updates
+
+Package: dnsmasq
+Version: 2.62-2
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/dnsmasq
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 96073
+Filename: dnsmasq_2.62-2_model_mtk_mt762x.ipk
+Size: 96727
+MD5Sum: c2befaa985222254a318fa614aba05db
+Description:  It is intended to provide coupled DNS and DHCP service to a LAN.
+
+Package: dropbear
+Version: 2011.54-2
+Depends: liblua
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/dropbear
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 123898
+Filename: dropbear_2011.54-2_model_mtk_mt762x.ipk
+Size: 122546
+MD5Sum: 4e2762ef30dd00486aa07e0d1677724f
+Description:  A small SSH2 server/client designed for small memory environments.
+
+Package: ds-lite
+Version: 1-1
+Depends: kmod-ipv6, kmod-ip6-tunnel
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/ds-lite
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Steven Barth <steven@midlink.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 1121
+Filename: ds-lite_1-1_model_mtk_mt762x.ipk
+Size: 1828
+MD5Sum: 7eea4307f1bd68d40f783258d4194eef
+Description:  Provides support for Dual-Stack Lite in /etc/config/network.
+ Refer to http://wiki.openwrt.org/doc/uci/network for
+ configuration details.
+
+Package: fdk-aac
+Version: 0.1.1-1
+Depends: 
+Provides: 
+Source: package/fdk-aac
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 337666
+Filename: fdk-aac_0.1.1-1_model_mtk_mt762x.ipk
+Size: 337750
+MD5Sum: 12fccd9670602975105e267658af5ada
+Description:  The Open Source Fraunhofer FDK AAC library is purported to be a "high quality"
+ aac implementation.
+
+Package: firewall
+Version: 2-55.1
+Depends: iptables, kmod-ipt-conntrack, kmod-ipt-nat
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/firewall
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: all
+Installed-Size: 16925
+Filename: firewall_2-55.1_all.ipk
+Size: 17652
+MD5Sum: 7ba0f0802c38745990e0861d1b5456cc
+Description:  UCI based firewall for OpenWrt
+
+Package: flock
+Version: 2.21.2-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 10999
+Filename: flock_2.21.2-1_model_mtk_mt762x.ipk
+Size: 11663
+MD5Sum: 104f27f08add5b6c4a44d2aab49edecf
+Description:  manages flock locks from within shell scripts or the command line
+
+Package: getopt
+Version: 2.21.2-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 5105
+Filename: getopt_2.21.2-1_model_mtk_mt762x.ipk
+Size: 5827
+MD5Sum: 30ba9d10679055b19c54c8c589740555
+Description:  getopt is used to break up (parse) options in command lines for easy parsing
+ by shell procedures, and to check for legal options
+
+Package: hfs-fsck
+Version: 332.25-1
+Depends: 
+Provides: 
+Source: package/hfsprogs
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 112841
+Filename: hfs-fsck_332.25-1_model_mtk_mt762x.ipk
+Size: 113179
+MD5Sum: 1ec3680219ee2cc98325d0ffdb3c9701
+Description:  Utilities to create and check HFS and HFS+ filesystems.
+ (fsck.hfs and fsck.hfsplus for checking integrity of HFS/HFS+ volumes)
+
+Package: hotplug2
+Version: 1.0-beta-4
+Depends: libbsd
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/hotplug2
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 18959
+Filename: hotplug2_1.0-beta-4_model_mtk_mt762x.ipk
+Size: 19713
+MD5Sum: 395015d7522321e368d585b917d13952
+Description:  Hotplug2 is a trivial replacement of some of the UDev functionality
+ in a tiny pack, intended for Linux early userspace: Init RAM FS and InitRD.
+ This is an implementation of Hotplug2-1.0-beta
+
+Package: improxy
+Version: 1.0-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/improxy
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 28178
+Filename: improxy_1.0-1_model_mtk_mt762x.ipk
+Size: 28922
+MD5Sum: ed386b6f743ab518cc7f0a3180fb4b61
+Description:  Improxy is an IGMP/MLD Proxy daemon written in c for Linux. It is lightweight and do not depend on any thirdparty library.
+
+Package: ip6tables-extra
+Version: 1.4.21-1
+Depends: ip6tables, kmod-ip6tables-extra
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 160
+Filename: ip6tables-extra_1.4.21-1_model_mtk_mt762x.ipk
+Size: 763
+MD5Sum: 1183fe9f66893f860ed93e295997691d
+Description:  IPv6 header matching modules
+
+Package: ip6tables-mod-nat
+Version: 1.4.21-1
+Depends: ip6tables, kmod-ipt-nat6
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 160
+Filename: ip6tables-mod-nat_1.4.21-1_model_mtk_mt762x.ipk
+Size: 774
+MD5Sum: a99435afaf6b1d07dad8309f4f3407bf
+Description:  iptables extensions for IPv6-NAT targets.
+
+Package: ip6tables
+Version: 1.4.21-1
+Depends: kmod-ip6tables, iptables
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 215
+Filename: ip6tables_1.4.21-1_model_mtk_mt762x.ipk
+Size: 820
+MD5Sum: 5c0e4bb3729615b8dc108827e2d0c879
+Description:  IPv6 firewall administration tool
+
+Package: ip
+Version: 3.3.0-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/iproute2
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 110725
+Filename: ip_3.3.0-1_model_mtk_mt762x.ipk
+Size: 111395
+MD5Sum: fa850606f7d1c25584da01db5092aba3
+Description:  Routing control utility
+
+Package: iperf
+Version: 2.0.5-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/iperf
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 34753
+Filename: iperf_2.0.5-1_model_mtk_mt762x.ipk
+Size: 35488
+MD5Sum: d3ee8d702a9c686af6e62c7f67fa1aed
+Description:  This is Iperf v2.0.0, a tool for measuring Internet bandwidth performance.
+
+Package: iptables-mod-LOOPBACKDNAT
+Version: 2.10-3.1
+Depends: iptables, kmod-ipt-LOOPBACKDNAT
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/xtables-addons
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2272
+Filename: iptables-mod-LOOPBACKDNAT_2.10-3.1_model_mtk_mt762x.ipk
+Size: 2949
+MD5Sum: 14a68dbeb8ee95543a86e389f54f0c33
+Description:  LOOPBACKDNAT iptables extension
+
+Package: iptables-mod-extra
+Version: 1.4.21-1
+Depends: iptables, kmod-ipt-extra
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 160
+Filename: iptables-mod-extra_1.4.21-1_model_mtk_mt762x.ipk
+Size: 828
+MD5Sum: 930deed1c75e63378558c174338976b0
+Description:  Other extra iptables extensions.
+ 
+ Matches:
+ - addrtype
+ - condition
+ - owner
+ - physdev (if ebtables is enabled)
+ - pkttype
+ - quota
+ 
+
+Package: iptables-mod-iprange
+Version: 1.4.21-1
+Depends: iptables, kmod-ipt-iprange
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 160
+Filename: iptables-mod-iprange_1.4.21-1_model_mtk_mt762x.ipk
+Size: 783
+MD5Sum: 7f5375c60400b70b250e819fde6f146e
+Description:  iptables extensions for matching ip ranges.
+ 
+ Matches:
+ - iprange
+ 
+
+Package: iptables-mod-pctl
+Version: 2.10-3.1
+Depends: iptables, kmod-ipt-pctl
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/xtables-addons
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 3285
+Filename: iptables-mod-pctl_2.10-3.1_model_mtk_mt762x.ipk
+Size: 3939
+MD5Sum: 780c85b545ab7683b401db3d4dd11798
+Description:  pctl iptables extension
+
+Package: iptables-mod-trigger
+Version: 2.10-3.1
+Depends: iptables, kmod-ipt-trigger
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/xtables-addons
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2983
+Filename: iptables-mod-trigger_2.10-3.1_model_mtk_mt762x.ipk
+Size: 3626
+MD5Sum: 8fedf005dab49f021f69cf311a625337
+Description:  TRIGGER iptables extension
+
+Package: iptables
+Version: 1.4.21-1
+Depends: kmod-ipt-core, libip4tc, libip6tc, libxtables
+Provides: 
+Source: package/iptables
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 114975
+Filename: iptables_1.4.21-1_model_mtk_mt762x.ipk
+Size: 115450
+MD5Sum: 638e2c5874794cffe2b82184731ac703
+Description:  IP firewall administration tool.
+ 
+ Matches:
+ - icmp
+ - tcp
+ - udp
+ - comment
+ - conntrack
+ - limit
+ - mac
+ - mark
+ - multiport
+ - set
+ - state
+ - time
+ 
+ Targets:
+ - ACCEPT
+ - CT
+ - DNAT
+ - DROP
+ - REJECT
+ - LOG
+ - MARK
+ - MASQUERADE
+ - REDIRECT
+ - SET
+ - SNAT
+ - TCPMSS
+ 
+ Tables:
+ - filter
+ - mangle
+ - nat
+ - raw
+ 
+
+Package: iputils-ping6
+Version: 20101006-1
+Depends: libopenssl
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/iputils
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 22225
+Filename: iputils-ping6_20101006-1_model_mtk_mt762x.ipk
+Size: 22890
+MD5Sum: 53d87e0f1331684e9b1b1adb2960f62c
+Description:  ping6 is a icmp tool for IPv6.
+
+Package: iwinfo
+Version: 36
+Depends: libiwinfo
+Provides: 
+Source: package/iwinfo
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 8171
+Filename: iwinfo_36_model_mtk_mt762x.ipk
+Size: 8793
+MD5Sum: 849af01617f23717550f609d7b4ab3e8
+Description:  Command line frontend for the wireless information library.
+
+Package: jpeg-tools
+Version: 6b-1
+Depends: libjpeg
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/jpeg
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 36113
+Filename: jpeg-tools_6b-1_model_mtk_mt762x.ipk
+Size: 36825
+MD5Sum: df97fae23aea4c9b2cdf29c3b4eb46ab
+Description:  The Independent JPEG Group's JPEG manipulation tools
+
+Package: jshn
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: libjson
+Provides: 
+Source: ibase/libubox
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 5829
+Filename: jshn_2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa_model_mtk_mt762x.ipk
+Size: 6508
+MD5Sum: 6c91c86b96a14d301ff2154d047d3145
+Description:  Library for parsing and generating JSON from shell scripts
+
+Package: kmod-crypto-arc4
+Version: -
+Depends: kernel (=--unknown), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-crypto-arc4_-_model_mtk_mt762x.ipk
+Size: 718
+MD5Sum: 588e454a88cf9a068ffb85ef100b44db
+Description:  ARC4 (RC4) cipher CryptoAPI module
+
+Package: kmod-crypto-ecb
+Version: -
+Depends: kernel (=--unknown), kmod-crypto-manager, kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-crypto-ecb_-_model_mtk_mt762x.ipk
+Size: 725
+MD5Sum: ce8e6c7d5c17fcfdf1a38eebb37705b9
+Description:  Electronic CodeBook CryptoAPI module
+
+Package: kmod-crypto-hash
+Version: -
+Depends: kernel (=--unknown), kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-crypto-hash_-_model_mtk_mt762x.ipk
+Size: 708
+MD5Sum: 5bc682763650eaaf41b2b92ad16eb181
+Description:  CryptoAPI hash support
+
+Package: kmod-crypto-sha1
+Version: -
+Depends: kernel (=--unknown), kmod-crypto-hash, kmod-crypto-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-crypto-sha1_-_model_mtk_mt762x.ipk
+Size: 724
+MD5Sum: e50e790b93c89f7743193a7f3d2dc2bf
+Description:  SHA1 digest CryptoAPI module
+
+Package: kmod-fs-ntfs
+Version: -
+Depends: kernel (=--unknown), kmod-nls-base
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-fs-ntfs_-_model_mtk_mt762x.ipk
+Size: 724
+MD5Sum: 5da5fa68d9e1a1a60ed7dd45ceb69dd4
+Description:  Kernel module for NTFS filesystem support
+
+Package: kmod-fs-vfat
+Version: -
+Depends: kernel (=--unknown), kmod-nls-base
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-fs-vfat_-_model_mtk_mt762x.ipk
+Size: 721
+MD5Sum: 5a6ff17e7710397db896bb3abb152961
+Description:  Kernel module for VFAT filesystem support
+
+Package: kmod-fuse
+Version: -
+Depends: kernel (=--unknown)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 51919
+Filename: kmod-fuse_-_model_mtk_mt762x.ipk
+Size: 52516
+MD5Sum: 6eefb70344ea1ef0ba4cb796bb9e3f39
+Description:  Kernel module for userspace filesystem support
+
+Package: kmod-gre
+Version: -
+Depends: kernel (=--unknown), kmod-ipv6
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 8405
+Filename: kmod-gre_-_model_mtk_mt762x.ipk
+Size: 9157
+MD5Sum: c216817cc5bd6b705d83e603841ba7c9
+Description:  Generic Routing Encapsulation support
+
+Package: kmod-ip6-tunnel
+Version: -
+Depends: kernel (=--unknown), kmod-ipv6, kmod-iptunnel6
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-ip6-tunnel_-_model_mtk_mt762x.ipk
+Size: 730
+MD5Sum: 77f91146ae9d3e148dcf5e3824d42064
+Description:  Kernel modules for IPv6-in-IPv6 and IPv4-in-IPv6 tunnelling
+
+Package: kmod-ipt-LOOPBACKDNAT
+Version: +2.10-3.1
+Depends: kernel (=--unknown), kmod-ipt-core
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/xtables-addons
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2924
+Filename: kmod-ipt-LOOPBACKDNAT_+2.10-3.1_model_mtk_mt762x.ipk
+Size: 3676
+MD5Sum: 09d8536c377c608e1cf6ebb39efa09fe
+Description:  LOOPBACKDNAT netfilter module
+
+Package: kmod-ipt-compat-xtables
+Version: +2.10-3.1
+Depends: kernel (=--unknown), kmod-ipt-core
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/xtables-addons
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 855
+Filename: kmod-ipt-compat-xtables_+2.10-3.1_model_mtk_mt762x.ipk
+Size: 1639
+MD5Sum: 4d65d1e95c0b7ccb799943f722d3f1b1
+Description:  API compatibilty layer netfilter module
+
+Package: kmod-ipt-nathelper-extra
+Version: -
+Depends: kernel (=--unknown), kmod-ipt-core, kmod-ipt-nat, kmod-lib-textsearch
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 58616
+Filename: kmod-ipt-nathelper-extra_-_model_mtk_mt762x.ipk
+Size: 59446
+MD5Sum: a3b9d3c43f5a5dff232c1cd44887911a
+Description:  Extra Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - amanda
+ - h323
+ - mms
+ - pptp
+ - proto_gre
+ - sip
+ - snmp_basic
+ - broadcast
+
+Package: kmod-ipt-nathelper
+Version: -
+Depends: kernel (=--unknown), kmod-ipt-core, kmod-ipt-nat
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 9205
+Filename: kmod-ipt-nathelper_-_model_mtk_mt762x.ipk
+Size: 9960
+MD5Sum: a635da6263a29535a7ad36fbe4a3b325
+Description:  Default Netfilter (IPv4) Conntrack and NAT helpers
+ Includes:
+ - ftp
+ - irc
+ - tftp
+
+Package: kmod-ipt-pctl
+Version: +2.10-3.1
+Depends: kernel (=--unknown), kmod-ipt-core
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/xtables-addons
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 11750
+Filename: kmod-ipt-pctl_+2.10-3.1_model_mtk_mt762x.ipk
+Size: 12509
+MD5Sum: d0afb262a679cd1fa7d08525743f1194
+Description:  pctl netfilter module
+
+Package: kmod-ipt-trigger
+Version: +2.10-3.1
+Depends: kernel (=--unknown), kmod-ipt-core, kmod-ipt-compat-xtables
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/xtables-addons
+Section: kernel
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2673
+Filename: kmod-ipt-trigger_+2.10-3.1_model_mtk_mt762x.ipk
+Size: 3423
+MD5Sum: d2a6ce438b9bd1fa7f13d652d993cfd8
+Description:  TRIGGER netfilter module
+
+Package: kmod-iptunnel4
+Version: -
+Depends: kernel (=--unknown)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-iptunnel4_-_model_mtk_mt762x.ipk
+Size: 703
+MD5Sum: 1ad264d78e8cd49530d8ed86abe2362d
+Description:  Kernel modules for IPv4 tunneling
+
+Package: kmod-iptunnel6
+Version: -
+Depends: kernel (=--unknown), kmod-ipv6
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-iptunnel6_-_model_mtk_mt762x.ipk
+Size: 709
+MD5Sum: 1d8b19f41f50d091fcccff08399f4376
+Description:  Kernel modules for IPv6 tunneling
+
+Package: kmod-ipv6
+Version: -
+Depends: kernel (=--unknown)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-ipv6_-_model_mtk_mt762x.ipk
+Size: 704
+MD5Sum: bddb758b34d637ad1d952ab172cc64e0
+Description:  Kernel modules for IPv6 support
+
+Package: kmod-l2tp
+Version: -
+Depends: kernel (=--unknown)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-l2tp_-_model_mtk_mt762x.ipk
+Size: 702
+MD5Sum: 83efbd6248ac6b72eaa097ae0480a537
+Description:  Kernel modules for L2TP V3 Support
+
+Package: kmod-lib-crc-ccitt
+Version: -
+Depends: kernel (=--unknown)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-lib-crc-ccitt_-_model_mtk_mt762x.ipk
+Size: 716
+MD5Sum: 4f0bc0aa9190f67c01995c81f661e5ba
+Description:  Kernel module for CRC-CCITT support
+
+Package: kmod-lib-textsearch
+Version: -
+Depends: kernel (=--unknown)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-lib-textsearch_-_model_mtk_mt762x.ipk
+Size: 696
+MD5Sum: 2b1ddc91fa957843bdb567e0fcd20c04
+Description:  Textsearch support
+
+Package: kmod-mppe
+Version: -
+Depends: kernel (=--unknown), kmod-ppp, kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-sha1, kmod-crypto-ecb
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 4843
+Filename: kmod-mppe_-_model_mtk_mt762x.ipk
+Size: 5582
+MD5Sum: 5c220b9d8a61e495691f1275f3ddae0d
+Description:  Kernel modules for Microsoft PPP compression/encryption
+
+Package: kmod-nf-conntrack-netlink
+Version: -
+Depends: kernel (=--unknown), kmod-nfnetlink, kmod-ipt-conntrack
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-nf-conntrack-netlink_-_model_mtk_mt762x.ipk
+Size: 758
+MD5Sum: c9f6a4a34ad0cce0ffd2ebcb724351c3
+Description:  Kernel modules support for a netlink-based connection tracking 
+ userspace interface
+
+Package: kmod-nfnetlink
+Version: -
+Depends: kernel (=--unknown), kmod-ipt-core
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-nfnetlink_-_model_mtk_mt762x.ipk
+Size: 732
+MD5Sum: 2aaf6f71f98cfe8445d611618e80ce87
+Description:  Kernel modules support for a netlink-based userspace interface
+
+Package: kmod-nls-base
+Version: -
+Depends: kernel (=--unknown)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-nls-base_-_model_mtk_mt762x.ipk
+Size: 719
+MD5Sum: e583b2fa0633a73f2e0fda842c636f4e
+Description:  Kernel module for NLS (Native Language Support)
+
+Package: kmod-nls-utf8
+Version: -
+Depends: kernel (=--unknown), kmod-nls-base
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 103
+Filename: kmod-nls-utf8_-_model_mtk_mt762x.ipk
+Size: 715
+MD5Sum: b908b2cb502f5bf678e04dabf972ec0f
+Description:  Kernel module for NLS UTF-8
+
+Package: kmod-ppp
+Version: -
+Depends: kernel (=--unknown), kmod-lib-crc-ccitt
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104
+Filename: kmod-ppp_-_model_mtk_mt762x.ipk
+Size: 717
+MD5Sum: 2c71a11dcddc60f78ba0503dcb5f322b
+Description:  Kernel modules for PPP support
+
+Package: kmod-pppoe
+Version: -
+Depends: kernel (=--unknown), kmod-ppp, kmod-pppox
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 7762
+Filename: kmod-pppoe_-_model_mtk_mt762x.ipk
+Size: 8513
+MD5Sum: 7a4d70e4c57d720e40c055bb305435e8
+Description:  Kernel module for PPPoE (PPP over Ethernet) support
+
+Package: kmod-pppol2tp
+Version: -
+Depends: kernel (=--unknown), kmod-ppp, kmod-pppox, kmod-l2tp
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 11686
+Filename: kmod-pppol2tp_-_model_mtk_mt762x.ipk
+Size: 12420
+MD5Sum: 5afb8ad2d1770e1c2d3882e257a13b2c
+Description:  Kernel modules for PPPoL2TP (PPP over L2TP) support
+
+Package: kmod-pppox
+Version: -
+Depends: kernel (=--unknown), kmod-ppp
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 1798
+Filename: kmod-pppox_-_model_mtk_mt762x.ipk
+Size: 2548
+MD5Sum: 51d837d1b632352e724134f4a33ad9f2
+Description:  Kernel helper module for PPPoE and PPTP support
+
+Package: kmod-sit
+Version: -
+Depends: kernel (=--unknown), kmod-ipv6, kmod-iptunnel4
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 105
+Filename: kmod-sit_-_model_mtk_mt762x.ipk
+Size: 716
+MD5Sum: ea37b2ab96e669680d206f45eb8c8495
+Description:  Kernel modules for IPv6-in-IPv4 tunnelling
+
+Package: kmod-tun
+Version: -
+Depends: kernel (=--unknown)
+Provides: 
+Source: package/kernel
+Section: kernel
+Status: unknown hold not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 14453
+Filename: kmod-tun_-_model_mtk_mt762x.ipk
+Size: 15146
+MD5Sum: 49a6b988c1ffa682f7c99165b120d09c
+Description:  Kernel support for the TUN/TAP tunneling device
+
+Package: libavahi
+Version: 0.6.31-5
+Depends: libdaemon, libpthread
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/avahi
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 104107
+Filename: libavahi_0.6.31-5_model_mtk_mt762x.ipk
+Size: 105160
+MD5Sum: dec233493e6ce5282d027d3864b520d5
+Description:  Avahi is an mDNS/DNS-SD (aka RendezVous/Bonjour/ZeroConf) 
+ implementation (library). It facilitates 
+ service discovery on a local network -- this means that 
+ you can plug your laptop or computer into a network and
+ instantly be able to view other people who you can chat with, 
+ find printers to print to or find files being shared.
+ This kind of technology is already found in MacOS X
+ (branded 'Rendezvous', 'Bonjour' and sometimes 'ZeroConf')
+ and is very convenient.
+ .
+ The libavahi package contains the mDNS/DNS-SD shared libraries,
+ used by other programs. Specifically, it provides
+ libavahi-core and libavahi-common libraries.
+ By default, it is built without D-Bus support,
+ i.e. the --disable-dbus configuration flag is set.
+ To enable D-Bus support, select the package
+ libavahi-dbus-support.
+
+Package: libblkid
+Version: 2.21.2-1
+Depends: libuuid
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 87344
+Filename: libblkid_2.21.2-1_model_mtk_mt762x.ipk
+Size: 87930
+MD5Sum: e4eb0c3fdf02908dd72f3df68276adc0
+Description:  The libblkid library is used to identify block devices (disks) as to their
+ content (e.g. filesystem type, partitions) as well as extracting additional
+ information such as filesystem labels/volume names, partitions, unique
+ identifiers/serial numbers...
+
+Package: libblobmsg-json
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: libjson, libubox
+Provides: 
+Source: ibase/libubox
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 4276
+Filename: libblobmsg-json_2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa_model_mtk_mt762x.ipk
+Size: 4910
+MD5Sum: 04e9094bde1b2e58f3b065fb825d0329
+Description:  blobmsg <-> json conversion library
+
+Package: libbsd
+Version: 0.3.0-1
+Depends: 
+Provides: 
+Source: package/libbsd
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 22422
+Filename: libbsd_0.3.0-1_model_mtk_mt762x.ipk
+Size: 23126
+MD5Sum: a6e491e829dc74be7be84281bc62e67c
+Description:  This library provides useful functions commonly found on BSD systems, and lacking on others like GNU systems, thus making it easier to port projects with strong BSD origins, without needing to embed the same code over and over again on each project.
+
+Package: libbz2
+Version: 1.0.6-1
+Depends: 
+Provides: 
+Source: package/bzip2
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 29925
+Filename: libbz2_1.0.6-1_model_mtk_mt762x.ipk
+Size: 30268
+MD5Sum: 9a8009ee78ca92c9d50f8ca130e5521b
+Description:  bzip2 is a freely available, patent free, high-quality
+ data compressor. This packages provides libbz2 library.
+
+Package: libc-ares
+Version: 1.15.0-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libc-ares
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 35749
+Filename: libc-ares_1.15.0-1_model_mtk_mt762x.ipk
+Size: 36518
+MD5Sum: d4186f92f225f6a39a07ab1e447abc3d
+Description:  This is c-ares, an asynchronous resolver library.  It is intended for
+ applications which need to perform DNS queries without blocking, or need to
+ perform multiple DNS queries in parallel.  The primary examples of such
+ applications are servers which communicate with multiple clients and programs
+ with graphical user interfaces.
+
+Package: libcurl
+Version: 7.29.0-1
+Depends: libopenssl, zlib, libc-ares
+Provides: 
+Source: package/curl
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 154731
+Filename: libcurl_7.29.0-1_model_mtk_mt762x.ipk
+Size: 155336
+MD5Sum: 83443a77561e493a5a3eb074adc1b5a3
+Description:  A client-side URL transfer library
+
+Package: libdaemon
+Version: 0.14-2
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libdaemon
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 8720
+Filename: libdaemon_0.14-2_model_mtk_mt762x.ipk
+Size: 9699
+MD5Sum: 5d07f8152240ca08c180e2b5b405eec7
+Description:  libdaemon is a lightweight C library that eases the writing of UNIX daemons.
+ It consists of the following parts:
+ - A wrapper around fork() which does the correct daemonization procedure of a process
+ - A wrapper around syslog() for simpler and compatible log output to Syslog or STDERR
+ - An API for writing PID files
+ - An API for serializing UNIX signals into a pipe for usage with select() or poll()
+ - An API for running subprocesses with STDOUT and STDERR redirected to syslog
+ 
+ APIs like these are used in most daemon software available. It is not that
+ simple to get it done right and code duplication is not a goal.
+
+Package: libevent
+Version: 2.1.8-1
+Depends: libpthread, libopenssl
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libevent
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 136726
+Filename: libevent_2.1.8-1_model_mtk_mt762x.ipk
+Size: 137211
+MD5Sum: db5c7455c16e5749a01c18a8300ff3f2
+Description:  libevent
+
+Package: libexif
+Version: 0.6.19-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libexif
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 70744
+Filename: libexif_0.6.19-1_model_mtk_mt762x.ipk
+Size: 70775
+MD5Sum: fde5aa64b0ca5fafc33435ac72a30f83
+Description:  libexif is a library for parsing, editing, and saving EXIF data. It is
+ intended to replace lots of redundant implementations in command-line
+ utilities and programs with GUIs.
+
+Package: libexpat
+Version: 2.0.1-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/expat
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 61090
+Filename: libexpat_2.0.1-1_model_mtk_mt762x.ipk
+Size: 61437
+MD5Sum: 551c846a8a0fc90789c931a58ecbb6ea
+Description:  A fast, non-validating, stream-oriented XML parsing library.
+
+Package: libffmpeg-mini
+Version: 0.11.2-1
+Depends: libpthread, zlib, libbz2
+Provides: libffmpeg
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/ffmpeg
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 1011423
+Filename: libffmpeg-mini_0.11.2-1_model_mtk_mt762x.ipk
+Size: 1007924
+MD5Sum: 2515a7e7f14997019d390cb99df3cc99
+Description:  FFmpeg is a a software package that can record, convert and stream digital 
+ audio and video in numerous formats.
+ .
+ This package contains minimal-featured FFmpeg shared libraries.
+
+Package: libflac
+Version: 1.2.1-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/flac
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 165636
+Filename: libflac_1.2.1-1_model_mtk_mt762x.ipk
+Size: 166240
+MD5Sum: 56a8f4f62ebba51f24eaecd6b6bbc86d
+Description:  Free Lossless Audio Codec library
+
+Package: libgcc
+Version: -1
+Depends: 
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 60583
+Filename: libgcc_-1_model_mtk_mt762x.ipk
+Size: 60278
+MD5Sum: edf49853c9218d21e3a2fc5e72529940
+Description:  GCC support library
+
+Package: libgcrypt
+Version: 1.5.0-1
+Depends: libgpg-error
+Provides: 
+Source: package/libgcrypt
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 163292
+Filename: libgcrypt_1.5.0-1_model_mtk_mt762x.ipk
+Size: 162786
+MD5Sum: c599302a1b492e64943d140a6a390e1d
+Description:  This is a general purpose cryptographic library based on the code from
+ GnuPG. It provides functions for all cryptograhic building blocks:
+ symmetric ciphers (AES, DES, Arcfour, CAST5), hash algorithms (MD5, SHA-1,
+ RIPE-MD160, SHA-224/256, SHA-384/512), MACs (HMAC for all hash
+ algorithms), public key algorithms (RSA, DSA), large integer functions,
+ random numbers and a lot of supporting functions. Some algorithms have
+ been disabled to reduce size (Blowfish, Twofish, Serpent,
+ RC2, SEED, Camellia, CRC, MD4, TIGER-192, Whirlpool, ElGamal, ECC).
+
+Package: libgpg-error
+Version: 1.9-1
+Depends: 
+Provides: 
+Source: package/libgpg-error
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 5886
+Filename: libgpg-error_1.9-1_model_mtk_mt762x.ipk
+Size: 6640
+MD5Sum: b958208793a9a878fea2af183232a64c
+Description:  An helper library for common error codes and descriptions.
+ This is a library that defines common error values for all GnuPG
+ components. Among these are GPG, GPGSM, GPGME, GPG-Agent, libgcrypt,
+ Libksba, DirMngr, Pinentry, SmartCard Daemon and possibly more in the
+ future.
+
+Package: libiconv-full
+Version: 1.11.1-1
+Depends: 
+Provides: 
+Source: package/libiconv-full
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 71579
+Filename: libiconv-full_1.11.1-1_model_mtk_mt762x.ipk
+Size: 72213
+MD5Sum: 213120bc955cd96332e988ea1d406032
+Description:  Character set conversion library
+
+Package: libid3tag
+Version: 0.15.1b-3
+Depends: zlib
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libid3tag
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 26420
+Filename: libid3tag_0.15.1b-3_model_mtk_mt762x.ipk
+Size: 26940
+MD5Sum: cd0e63d048ad34f085ae04d7758881a9
+Description:  libid3tag is a library for reading and (eventually) writing ID3 tags, both 
+ ID3v1 and the various versions of ID3v2.
+
+Package: libifaddrs
+Version: 1.0.0
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/iplatform-extern-libs
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Zhang Longwei <zhanglongwei@tp-link.net>
+Architecture: model_mtk_mt762x
+Installed-Size: 5192
+Filename: libifaddrs_1.0.0_model_mtk_mt762x.ipk
+Size: 5860
+MD5Sum: ffc5bdbf9e188e461069598ad54d29c4
+Description:  Interface for network address. 
+ This is an implementation of libifaddrs.
+
+Package: libintl-full
+Version: 0.18.1.1-2
+Depends: 
+Provides: 
+Source: package/gettext-full
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 17277
+Filename: libintl-full_0.18.1.1-2_model_mtk_mt762x.ipk
+Size: 17884
+MD5Sum: 64fd0afac4a65551fef5f1dcee82d195
+Description:  GNU Internationalization library
+
+Package: libip4tc
+Version: 1.4.21-1
+Depends: 
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 12342
+Filename: libip4tc_1.4.21-1_model_mtk_mt762x.ipk
+Size: 12984
+MD5Sum: 67c57ace62171bf5009213ea57578ece
+Description:  IPv4 firewall - shared libiptc library
+
+Package: libip6tc
+Version: 1.4.21-1
+Depends: 
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 12707
+Filename: libip6tc_1.4.21-1_model_mtk_mt762x.ipk
+Size: 13330
+MD5Sum: 3b2f3f2aa918a5b02429b37fa7a71975
+Description:  IPv6 firewall - shared libiptc library
+
+Package: libiwinfo-lua
+Version: 36
+Depends: libiwinfo, liblua, lua
+Provides: 
+Source: package/iwinfo
+Section: lang
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 6334
+Filename: libiwinfo-lua_36_model_mtk_mt762x.ipk
+Size: 6961
+MD5Sum: c1d4a297fcd36b9e48de6899109e5240
+Description:  This is the Lua binding for the iwinfo library. It provides access to all enabled
+ backends.
+
+Package: libiwinfo
+Version: 36
+Depends: 
+Provides: 
+Source: package/iwinfo
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 14427
+Filename: libiwinfo_36_model_mtk_mt762x.ipk
+Size: 15087
+MD5Sum: 5e6515027523367f51f05c0c59d3b485
+Description:  Wireless information library with consistent interface for proprietary Broadcom,
+ madwifi, mtk, nl80211 and wext driver interfaces.
+
+Package: libjpeg
+Version: 6b-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/jpeg
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 66762
+Filename: libjpeg_6b-1_model_mtk_mt762x.ipk
+Size: 67348
+MD5Sum: 4529bfc752f2428b3449d3cdcd3a0542
+Description:  The Independent JPEG Group's JPEG runtime library
+
+Package: libjson
+Version: 0.9-2
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libjson-c
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 12818
+Filename: libjson_0.9-2_model_mtk_mt762x.ipk
+Size: 13496
+MD5Sum: e150560383ccdbef33dbb9fe90dbd9d1
+Description:  This package contains a library for javascript object notation backends.
+
+Package: liblua
+Version: 5.1.4-8
+Depends: 
+Provides: 
+Source: ibase/lua
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 79580
+Filename: liblua_5.1.4-8_model_mtk_mt762x.ipk
+Size: 80141
+MD5Sum: 833377488b2e1ebefe94bbfd771b94b4
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua shared libraries, needed by other programs.
+
+Package: liblzo
+Version: 2.06-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/lzo
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 42122
+Filename: liblzo_2.06-1_model_mtk_mt762x.ipk
+Size: 42246
+MD5Sum: fe5ac8203a90a3ade15cdc9c4c9ca14d
+Description:  LZO is a data compression library which is suitable for data de-/compression
+ in real-time. This means it favours speed over compression ratio.
+
+Package: libmount
+Version: 2.21.2-1
+Depends: libblkid
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 65963
+Filename: libmount_2.21.2-1_model_mtk_mt762x.ipk
+Size: 66552
+MD5Sum: 7d1f88ad3d7e855c5e3b5404169e45d7
+Description:  The libmount library is used to parse /etc/fstab, /etc/mtab and
+ /proc/self/mountinfo files, manage the mtab file, evaluate mount options...
+
+Package: libncurses
+Version: 5.7-5
+Depends: terminfo
+Provides: 
+Source: package/ncurses
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 125025
+Filename: libncurses_5.7-5_model_mtk_mt762x.ipk
+Size: 122596
+MD5Sum: 85b199ce479a18626d6c6a73768412ba
+Description:  Terminal handling library
+
+Package: libnetfilter-conntrack
+Version: 0.9.1-1
+Depends: libnfnetlink, kmod-nf-conntrack-netlink
+Provides: 
+Source: package/libnetfilter-conntrack
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 29097
+Filename: libnetfilter-conntrack_0.9.1-1_model_mtk_mt762x.ipk
+Size: 29656
+MD5Sum: af1097f6121d26516ea824a9de5a74a0
+Description:  libnetfilter_conntrack is a userspace library providing a programming
+ interface (API) to the in-kernel connection tracking state table. The
+ library libnetfilter_conntrack has been previously known as
+ libnfnetlink_conntrack and libctnetlink. This library is currently
+ used by conntrack-tools among many other applications.
+
+Package: libnfnetlink
+Version: 1.0.0-2
+Depends: 
+Provides: 
+Source: package/libnfnetlink
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 10624
+Filename: libnfnetlink_1.0.0-2_model_mtk_mt762x.ipk
+Size: 11383
+MD5Sum: b1aafeec408d4d3457a57f0896b721bd
+Description:  libnfnetlink is is the low-level library for netfilter related kernel/userspace communication.
+ It provides a generic messaging infrastructure for in-kernel netfilter subsystems
+ (such as nfnetlink_log, nfnetlink_queue, nfnetlink_conntrack) and their respective users
+ and/or management tools in userspace.
+
+Package: libnl-tiny
+Version: 0.1-3
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libnl-tiny
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 16431
+Filename: libnl-tiny_0.1-3_model_mtk_mt762x.ipk
+Size: 17049
+MD5Sum: 9a81e1b41a038ac094ff2d4001c475a1
+Description:  This package contains a stripped down version of libnl
+
+Package: libogg
+Version: 1.1.4-2
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libogg
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 10159
+Filename: libogg_1.1.4-2_model_mtk_mt762x.ipk
+Size: 10949
+MD5Sum: 045e10cd1adf0316fdbd6e644671869e
+Description:  Ogg project codecs use the Ogg bitstream format to arrange the raw,
+ compressed bitstream into a more robust, useful form.  For example,
+ the Ogg bitstream makes seeking, time stamping and error recovery
+ possible, as well as mixing several sepearate, concurrent media
+ streams into a single physical bitstream.
+
+Package: libopenssl
+Version: 1.0.2d-1
+Depends: zlib
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/openssl
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 816228
+Filename: libopenssl_1.0.2d-1_model_mtk_mt762x.ipk
+Size: 806185
+MD5Sum: ba61d1a5cc4f0a0a2be4d51a84c7cb81
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL shared libraries, needed by other programs.
+
+Package: libpcap
+Version: 1.1.1-2
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libpcap
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 90746
+Filename: libpcap_1.1.1-2_model_mtk_mt762x.ipk
+Size: 91391
+MD5Sum: f90c7591838f5971e7a60d03ec519577
+Description:  This package contains a system-independent library for user-level network packet
+ capture.
+
+Package: libpolarssl
+Version: 1.2.12-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/polarssl
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 161370
+Filename: libpolarssl_1.2.12-1_model_mtk_mt762x.ipk
+Size: 162094
+MD5Sum: 154781be3eee23e0db4554c8474e4587
+Description:  The aim of the PolarSSL project is to provide a quality, open-source
+ cryptographic library written in C and targeted at embedded systems.
+ This package contains the PolarSSL library.
+
+Package: libpthread
+Version: -1
+Depends: libgcc
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 21006
+Filename: libpthread_-1_model_mtk_mt762x.ipk
+Size: 21553
+MD5Sum: e370de373ae59d85e39f45d8ae1695fb
+Description:  POSIX thread library
+
+Package: librt
+Version: -1
+Depends: libpthread
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2202
+Filename: librt_-1_model_mtk_mt762x.ipk
+Size: 2838
+MD5Sum: 68f1beeeca25a83d3c32e0149c1c55c6
+Description:  POSIX.1b RealTime extension library
+
+Package: libsqlite3
+Version: 3071201-1
+Depends: libpthread
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/sqlite3
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 352293
+Filename: libsqlite3_3071201-1_model_mtk_mt762x.ipk
+Size: 352443
+MD5Sum: 9fb1ec24bc653a1916b06c1bbe8d6123
+Description:  SQLite is a small C library that implements a self-contained, embeddable,
+ zero-configuration SQL database engine.
+ This package contains the SQLite (v3.x) shared library, used by other
+ programs.
+
+Package: libstdcpp
+Version: -1
+Depends: 
+Provides: 
+Source: package/toolchain
+Section: libs
+Status: unknown hold not-installed
+Essential: yes
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 126
+Filename: libstdcpp_-1_model_mtk_mt762x.ipk
+Size: 725
+MD5Sum: 5e403e2ec4c6fc65c15c334d3d807917
+Description:  GNU Standard C++ Library v3
+
+Package: libtiff
+Version: 4.0.3-1
+Depends: zlib, libjpeg
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/tiff
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 141189
+Filename: libtiff_4.0.3-1_model_mtk_mt762x.ipk
+Size: 141232
+MD5Sum: b76afef87d1e852379d3ea4335293349
+Description:  TIFF library
+
+Package: libubox
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: 
+Provides: 
+Source: ibase/libubox
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 19106
+Filename: libubox_2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa_model_mtk_mt762x.ipk
+Size: 19725
+MD5Sum: 7c8a28fb03e6d09a26249fc85cfe2296
+Description:  Basic utility library
+
+Package: libubus-lua
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libubus, liblua
+Provides: 
+Source: ibase/ubus
+Section: luci2
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 8084
+Filename: libubus-lua_2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50_model_mtk_mt762x.ipk
+Size: 8746
+MD5Sum: 1d114e4ce394f102e76cd4ee559f06f8
+Description:  Lua binding for the OpenWrt RPC client
+
+Package: libubus
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libubox
+Provides: 
+Source: ibase/ubus
+Section: luci2
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 15451
+Filename: libubus_2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50_model_mtk_mt762x.ipk
+Size: 16064
+MD5Sum: 3220cebd5064423a8e3016730163e4f3
+Description:  OpenWrt RPC client library
+
+Package: libuci-lua
+Version: 2013-01-04.1-1
+Depends: libuci, liblua, libxml2
+Provides: 
+Source: ibase/uci
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 12218
+Filename: libuci-lua_2013-01-04.1-1_model_mtk_mt762x.ipk
+Size: 12846
+MD5Sum: 11c072cdd94fd2771cd263b65b535114
+Description:  Lua plugin for UCI
+
+Package: libuci
+Version: 2013-01-04.1-1
+Depends: 
+Provides: 
+Source: ibase/uci
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 17304
+Filename: libuci_2013-01-04.1-1_model_mtk_mt762x.ipk
+Size: 17922
+MD5Sum: c94c82ae8108ea51516625eec4208363
+Description:  C library for the Unified Configuration Interface (UCI)
+
+Package: libuuid
+Version: 2.21.2-1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 8964
+Filename: libuuid_2.21.2-1_model_mtk_mt762x.ipk
+Size: 9780
+MD5Sum: 13b3032cd06d0c9ff488d98085dae748
+Description:  The UUID library is used to generate unique identifiers for objects
+ that may be accessible beyond the local system. This library
+ generates UUIDs compatible with those created by the Open Software
+ Foundation (OSF) Distributed Computing Environment (DCE) utility.
+
+Package: libvorbis
+Version: 1.2.3-1
+Depends: libogg
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libvorbis
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 213723
+Filename: libvorbis_1.2.3-1_model_mtk_mt762x.ipk
+Size: 210919
+MD5Sum: f4d3f5e7e651b580cbb86f2492c9c5e8
+Description:  Vorbis is a general purpose audio and music encoding format
+ contemporary to MPEG-4's AAC and TwinVQ, the next generation beyond
+ MPEG audio layer 3. Unlike the MPEG sponsored formats (and other
+ proprietary formats such as RealAudio G2 and Windows' flavor of the
+ month), the Vorbis CODEC specification belongs to the public domain.
+ All the technical details are published and documented, and any
+ software entity may make full use of the format without license
+ fee, royalty or patent concerns.
+
+Package: libxml2
+Version: 2.7.8-1
+Depends: libpthread, zlib
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/libxml2
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 507004
+Filename: libxml2_2.7.8-1_model_mtk_mt762x.ipk
+Size: 503228
+MD5Sum: d9f3aee199ea49e0068153540264a0ce
+Description:  A library for manipulating XML and HTML resources.
+
+Package: libxtables
+Version: 1.4.21-1
+Depends: 
+Provides: 
+Source: package/iptables
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 21144
+Filename: libxtables_1.4.21-1_model_mtk_mt762x.ipk
+Size: 21782
+MD5Sum: 9417e101484e50e63b3e4a8f575a1c4a
+Description:  IPv4/IPv6 firewall - shared xtables library
+
+Package: lua
+Version: 5.1.4-8
+Depends: liblua
+Provides: 
+Source: ibase/lua
+Section: lang
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 5455
+Filename: lua_5.1.4-8_model_mtk_mt762x.ipk
+Size: 6194
+MD5Sum: 24a9d5d97946b21e91b464046c84afed
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language interpreter.
+
+Package: luac
+Version: 5.1.4-8
+Depends: liblua
+Provides: 
+Source: ibase/lua
+Section: lang
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 6670
+Filename: luac_5.1.4-8_model_mtk_mt762x.ipk
+Size: 7439
+MD5Sum: da2b32883bff8aceb54230bd5aa81acb
+Description:  Lua is a powerful light-weight programming language designed for extending 
+ applications. Lua is also frequently used as a general-purpose, stand-alone 
+ language. Lua is free software.
+ This package contains the Lua language compiler.
+
+Package: luasec
+Version: 0.4-1
+Depends: lua, libopenssl, luasocket
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/luasec
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 12119
+Filename: luasec_0.4-1_model_mtk_mt762x.ipk
+Size: 12832
+MD5Sum: 6226f9b901d674aed930b710310ba398
+Description:  LuaSec is a binding for OpenSSL library to provide TLS/SSL communication.
+
+Package: luasocket
+Version: 2.0.2-3
+Depends: lua
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/luasocket
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 40906
+Filename: luasocket_2.0.2-3_model_mtk_mt762x.ipk
+Size: 41742
+MD5Sum: 951d48f45b2eac03b1eadde2fa308ec1
+Description:  LuaSocket is the most comprehensive networking support
+ library for the Lua language. It provides easy access to
+ TCP, UDP, DNS, SMTP, FTP, HTTP, MIME and much more.
+
+Package: luci-app-firewall
+Version: 0.11.1-1
+Depends: firewall
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 52794
+Filename: luci-app-firewall_0.11.1-1_model_mtk_mt762x.ipk
+Size: 53519
+MD5Sum: 5c455fd6b5cb3f83fc36b87c17c2305e
+Description:  Firewall and Portforwarding application
+
+Package: luci-i18n-english
+Version: 0.11.1-1
+Depends: 
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 520
+Filename: luci-i18n-english_0.11.1-1_model_mtk_mt762x.ipk
+Size: 1242
+MD5Sum: 0bf958fafbff045cabd8c96ea6da8b99
+Description:  English
+
+Package: luci-lib-core
+Version: 0.11.1-1
+Depends: lua, libuci-lua, libubus-lua
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 27977
+Filename: luci-lib-core_0.11.1-1_model_mtk_mt762x.ipk
+Size: 28648
+MD5Sum: 72b8c120095e75d137334b8d9eee8b76
+Description:  LuCI core libraries
+
+Package: luci-lib-ipkg
+Version: 0.11.1-1
+Depends: 
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2294
+Filename: luci-lib-ipkg_0.11.1-1_model_mtk_mt762x.ipk
+Size: 2900
+MD5Sum: 4ecdde277e8424ec72e17f82c3102a2f
+Description:  LuCI IPKG/OPKG call abstraction library
+
+Package: luci-lib-json
+Version: 0.11.1-1
+Depends: 
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 3963
+Filename: luci-lib-json_0.11.1-1_model_mtk_mt762x.ipk
+Size: 4586
+MD5Sum: 973c17741d8eedaba2633ea907780d05
+Description:  LuCI JSON library
+
+Package: luci-lib-nixio
+Version: 0.11.1-1
+Depends: luci-lib-core, libifaddrs
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 35261
+Filename: luci-lib-nixio_0.11.1-1_model_mtk_mt762x.ipk
+Size: 35853
+MD5Sum: f2fb6ccec8e5ef1a54288b80354ac508
+Description:  NIXIO POSIX library
+
+Package: luci-lib-sys
+Version: 0.11.1-1
+Depends: 
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 16541
+Filename: luci-lib-sys_0.11.1-1_model_mtk_mt762x.ipk
+Size: 17145
+MD5Sum: a7cde5b4b790e27b14c97f13603a14d8
+Description:  LuCI Linux/POSIX system library
+
+Package: luci-lib-web
+Version: 0.11.1-1
+Depends: luci-lib-core, luci-lib-sys, luci-lib-nixio, luci-lib-core, luci-sgi-cgi
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 70976
+Filename: luci-lib-web_0.11.1-1_model_mtk_mt762x.ipk
+Size: 71782
+MD5Sum: 5002be8ede5deb75af27d814b600b20b
+Description:  MVC Webframework
+
+Package: luci-proto-core
+Version: 0.11.1-1
+Depends: 
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 1819
+Filename: luci-proto-core_0.11.1-1_model_mtk_mt762x.ipk
+Size: 2437
+MD5Sum: e7eb69d90c1e6db3d857c4d7086eea9b
+Description:  Support for static/dhcp/none
+
+Package: luci-proto-ppp
+Version: 0.11.1-1
+Depends: 
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 3162
+Filename: luci-proto-ppp_0.11.1-1_model_mtk_mt762x.ipk
+Size: 3744
+MD5Sum: 2de4c89d5f4f21885596a50886c0888b
+Description:  Support for PPP/PPPoE/PPPoA/PPtP
+
+Package: luci-sgi-cgi
+Version: 0.11.1-1
+Depends: 
+Provides: 
+Source: ibase/luci
+Section: luci
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: LuCI Development Team <luci@lists.subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 1467
+Filename: luci-sgi-cgi_0.11.1-1_model_mtk_mt762x.ipk
+Size: 2111
+MD5Sum: cd5071b01cc1dbc2d27a08ea97af3b0e
+Description:  CGI Gateway behind existing Webserver
+
+Package: minidlna
+Version: 1.1.2-1
+Depends: libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid, libtiff, libubox, libubus, libiconv-full, libintl-full
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/minidlna
+Section: multimedia
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 109134
+Filename: minidlna_1.1.2-1_model_mtk_mt762x.ipk
+Size: 109770
+MD5Sum: 09f2ccceacf1b0c267a6b46b112a8d5e
+Description:  MiniDLNA (aka ReadyDLNA) is server software with the aim of
+ being fully compliant with DLNA/UPnP-AV clients.
+
+Package: miniupnpd
+Version: 1.8.20130426-2
+Depends: iptables, libip4tc, libnfnetlink, libifaddrs
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/miniupnpd
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Daniel Dickinson <openwrt@cshore.neomailbox.net>
+Architecture: model_mtk_mt762x
+Installed-Size: 47359
+Filename: miniupnpd_1.8.20130426-2_model_mtk_mt762x.ipk
+Size: 48249
+MD5Sum: e84217a2bd180cbddf3b7b8289152d0b
+Description:  Lightweight UPnP daemon
+
+Package: mount-utils
+Version: 2.21.2-1
+Depends: libmount
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 44790
+Filename: mount-utils_2.21.2-1_model_mtk_mt762x.ipk
+Size: 45445
+MD5Sum: 7c97362ed5042dfa61bbb01182fc9d6c
+Description:  contains: mount, umount, findmnt
+
+Package: mtd
+Version: 18.1
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/mtd
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 9123
+Filename: mtd_18.1_model_mtk_mt762x.ipk
+Size: 9839
+MD5Sum: cea86e279f3747d1a4270843601373c6
+Description:  This package contains an utility useful to upgrade from other firmware or
+ older OpenWrt releases.
+
+Package: netatalk
+Version: 3.1.8
+Depends: libgcrypt, libopenssl, bdb
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/netatalk
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: W. Michael Petullo <mike@flyn.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 328599
+Filename: netatalk_3.1.8_model_mtk_mt762x.ipk
+Size: 327991
+MD5Sum: 3047b0e6c7b57e3d7f70d19caab1c49e
+Description:  netatalk
+
+Package: netifd
+Version: 2013-05-13-bc4a4bb127622c76085ecec7fd20448aad7bafaf
+Depends: libuci, libnl-tiny, libubus, ubus, ubusd, jshn, kmod-bonding
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/netifd
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 66651
+Filename: netifd_2013-05-13-bc4a4bb127622c76085ecec7fd20448aad7bafaf_model_mtk_mt762x.ipk
+Size: 67356
+MD5Sum: cc03b9a08eb32236c3d4398a89b94bd1
+Description:  OpenWrt Network Interface Configuration Daemon
+
+Package: ntfs-3g
+Version: 2015.3.14-1-fuseint
+Depends: kmod-fuse, libpthread
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/ntfs-3g
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Bud <wrt_buddhay@gmx.net>
+Architecture: model_mtk_mt762x
+Installed-Size: 223992
+Filename: ntfs-3g_2015.3.14-1-fuseint_model_mtk_mt762x.ipk
+Size: 224749
+MD5Sum: 77d4762700d5d1d8932ff21a851efc45
+Description:  Ntfs-3g is a NTFS driver, which can create, remove, rename,
+ move files, directories, hard links, and streams. It can read
+ and write files, including streams and sparse files. It can
+ handle special files like symbolic links, devices, and FIFOs.
+ Moreover it can also read transparently compressed files.
+ 
+ Contains:
+ - ntfs-3g
+ - ntfs-3g.probe
+ - mount.ntfs-3g (symlink to ntfs-3g)
+ 
+
+Package: openssl-util
+Version: 1.0.2d-1
+Depends: libopenssl
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/openssl
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 200315
+Filename: openssl-util_1.0.2d-1_model_mtk_mt762x.ipk
+Size: 199726
+MD5Sum: b44a9aea189ef4e27e21721ae1c45ae0
+Description:  The OpenSSL Project is a collaborative effort to develop a robust,
+ commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+ Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+ as a full-strength general purpose cryptography library.
+ This package contains the OpenSSL command-line utility.
+
+Package: openvpn-easy-rsa
+Version: 2013-01-30-2
+Depends: openssl-util
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/openvpn-easy-rsa
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 16128
+Filename: openvpn-easy-rsa_2013-01-30-2_model_mtk_mt762x.ipk
+Size: 16791
+MD5Sum: 873af2a2cb347d01d5182d8fc8b3556e
+Description:  Simple shell scripts to manage a Certificate Authority
+
+Package: openvpn-openssl
+Version: 2.3.8-1
+Depends: kmod-tun, liblzo, libopenssl
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/openvpn
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Mirko Vogt <mirko@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 239422
+Filename: openvpn-openssl_2.3.8-1_model_mtk_mt762x.ipk
+Size: 239141
+MD5Sum: c9b4caeb443a763e5cf732f00f1137c6
+Description:  Open source VPN solution using OpenSSL
+
+Package: opkg
+Version: 618-5
+Depends: zlib
+Provides: 
+Source: package/opkg
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Jo-Philipp Wich <xm@subsignal.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 69183
+Filename: opkg_618-5_model_mtk_mt762x.ipk
+Size: 69917
+MD5Sum: ab3d64d548db450f553d816290555d9e
+Description:  Lightweight package management system
+ opkg is the opkg Package Management System, for handling
+ installation and removal of packages on a system. It can
+ recursively follow dependencies and download all packages
+ necessary to install a particular package.
+ 
+ opkg knows how to install both .ipk and .deb packages.
+
+Package: pppd
+Version: 2.4.3-8
+Depends: kmod-ppp, kmod-pptp, kmod-pppoe, resolveip
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/pppd
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 150221
+Filename: pppd_2.4.3-8_model_mtk_mt762x.ipk
+Size: 150853
+MD5Sum: d9861e8003c301cc87a53f71373ef49c
+Description:  This package contains the PPP (Point-to-Point Protocol) daemon for PPPoE, L2TP and PPTP.
+
+Package: pppoe-discovery
+Version: 3.8p
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/pppoe-discovery
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Ye Qianchuan <yeqianchuan@tp-link.net>
+Architecture: model_mtk_mt762x
+Installed-Size: 7154
+Filename: pppoe-discovery_3.8p_model_mtk_mt762x.ipk
+Size: 7788
+MD5Sum: e7e71dcaa6eb62b29878340b43296aee
+Description:  pppoe discovery
+
+Package: proftpd
+Version: 1.3.4b-1
+Depends: libubox, libubus, libiconv-full, libintl-full, librt
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/proftpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: Cezary Jackiewicz <cezary@eko.one.pl>
+Architecture: model_mtk_mt762x
+Installed-Size: 273436
+Filename: proftpd_1.3.4b-1_model_mtk_mt762x.ipk
+Size: 273384
+MD5Sum: 85d915479e9b30ea75c391852b602ec5
+Description:  ProFTPD FTP server
+
+Package: radvd
+Version: 1.7-1
+Depends: kmod-ipv6, libdaemon, libifaddrs
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/radvd
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 107693
+Filename: radvd_1.7-1_model_mtk_mt762x.ipk
+Size: 96807
+MD5Sum: c1acb1fb155cd9c1dfde49c07223412d
+Description:  radvd is the router advertisement daemon for IPv6. It listens to router
+ solicitations and sends router advertisements as described in "Neighbor
+ Discovery for IP Version 6 (IPv6)" (RFC 4861).  With these advertisements hosts
+ can automatically configure their addresses and some other parameters. They also
+ can choose a default router based on these advertisements.
+
+Package: radvdump
+Version: 1.7-1
+Depends: kmod-ipv6, libdaemon, libifaddrs
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/radvd
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 10971
+Filename: radvdump_1.7-1_model_mtk_mt762x.ipk
+Size: 11734
+MD5Sum: e8e25f53ce9ec9b8e0e0a9c34e5141e4
+Description:  radvdump prints out the contents of incoming router advertisements sent by radvd
+ or some other software implementing (parts of) "Neighbor Discovery for IP
+ Version 6 (IPv6)" (RFC 4861).
+
+Package: resolveip
+Version: 2
+Depends: 
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/resolveip
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2399
+Filename: resolveip_2_model_mtk_mt762x.ipk
+Size: 3197
+MD5Sum: 0b2d9caf308844aa50dc29fbd9bf9dbe
+Description:  This package contains the small resolveip utility which
+ can be used by scripts to turn host names into numeric
+ IP addresses. It supports IPv4 and IPv6 resolving and
+ has a configurable timeout to guarantee a certain maximum
+ runtime in case of slow or defunct DNS servers.
+
+Package: samba36-server
+Version: 3.6.25-1.1
+Depends: libuuid, libubox, libubus, usb_sync
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/samba
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 1153047
+Filename: samba36-server_3.6.25-1.1_model_mtk_mt762x.ipk
+Size: 1123307
+MD5Sum: 9182702dc09f67128e011b365661e2c5
+Description:  The Samba software suite is a collection of programs that implements the
+ SMB protocol for UNIX systems, allowing you to serve files and printers to
+ Windows, NT, OS/2 and DOS clients. This protocol is sometimes also referred
+ to as the LanManager or Netbios protocol.
+
+Package: swap-utils
+Version: 2.21.2-1
+Depends: libblkid
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 26839
+Filename: swap-utils_2.21.2-1_model_mtk_mt762x.ipk
+Size: 27446
+MD5Sum: 62f2cec97161b4200a850e0e08e81daf
+Description:  contains: mkswap, swaplabel, swapon, swapoff
+
+Package: tc
+Version: 3.3.0-1
+Depends: kmod-sched-core
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/iproute2
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 124868
+Filename: tc_3.3.0-1_model_mtk_mt762x.ipk
+Size: 125543
+MD5Sum: 47c718c166244e79d3702eee1a2a6dc2
+Description:  Traffic control utility
+
+Package: terminfo
+Version: 5.7-5
+Depends: 
+Provides: 
+Source: package/ncurses
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 5556
+Filename: terminfo_5.7-5_model_mtk_mt762x.ipk
+Size: 6104
+MD5Sum: e62e8ba936655e6023c23323dd7ca29f
+Description:  Terminal Info Database (ncurses)
+
+Package: tiff-utils
+Version: 4.0.3-1
+Depends: libtiff
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/tiff
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 195791
+Filename: tiff-utils_4.0.3-1_model_mtk_mt762x.ipk
+Size: 196006
+MD5Sum: 7e4e4c80ed6450c2bc8e02ebd3c56c73
+Description:  TIFF utilities
+
+Package: ubus
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libubus, libblobmsg-json, ubusd
+Provides: 
+Source: ibase/ubus
+Section: luci2
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 4292
+Filename: ubus_2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50_model_mtk_mt762x.ipk
+Size: 4916
+MD5Sum: 5abe93d440942fd7f1501e5e0e095a95
+Description:  OpenWrt RPC client utility
+
+Package: ubusd
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libubox
+Provides: 
+Source: ibase/ubus
+Section: luci2
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 9546
+Filename: ubusd_2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50_model_mtk_mt762x.ipk
+Size: 10191
+MD5Sum: 846cd516f710cbe6dc1db211357ef96d
+Description:  OpenWrt RPC daemon
+
+Package: uci
+Version: 2013-01-04.1-1
+Depends: libuci
+Provides: 
+Source: ibase/uci
+Section: base
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 7818
+Filename: uci_2013-01-04.1-1_model_mtk_mt762x.ipk
+Size: 8473
+MD5Sum: dd1ddae997cb5c413048c59717d2b321
+Description:  Utility for the Unified Configuration Interface (UCI)
+
+Package: uhttpd-mod-tls
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: uhttpd, libopenssl
+Provides: 
+Source: ibase/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2916
+Filename: uhttpd-mod-tls_2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd_model_mtk_mt762x.ipk
+Size: 3604
+MD5Sum: 7817c48547e6726acef6cac194feccd6
+Description:  The TLS plugin adds HTTPS support to uHTTPd.
+
+Package: uhttpd-mod-ubus
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: uhttpd, libubus, libblobmsg-json
+Provides: 
+Source: ibase/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 8252
+Filename: uhttpd-mod-ubus_2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd_model_mtk_mt762x.ipk
+Size: 8964
+MD5Sum: 66e4d0ad5440e998baa0dd3f55b49af4
+Description:  The ubus plugin adds a HTTP/JSON RPC proxy for ubus and publishes the
+ session.* namespace and procedures.
+
+Package: uhttpd
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: libubox, libubus, libblobmsg-json, libuci
+Provides: 
+Source: ibase/uhttpd
+Section: net
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 28453
+Filename: uhttpd_2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd_model_mtk_mt762x.ipk
+Size: 29196
+MD5Sum: b73b53c4cfa1f3fb26c82ce133105370
+Description:  uHTTPd is a tiny single threaded HTTP server with TLS, CGI and Lua
+ support. It is intended as a drop-in replacement for the Busybox
+ HTTP daemon.
+
+Package: uuidd
+Version: 2.21.2-1
+Depends: libuuid
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 6622
+Filename: uuidd_2.21.2-1_model_mtk_mt762x.ipk
+Size: 7435
+MD5Sum: 2f240c904133a889f22e1571eaf74bd3
+Description:  The uuidd daemon is used by the UUID library to generate universally unique
+ identifiers (UUIDs), especially time-based UUIDs, in a secure and
+ guaranteed-unique fashion, even in the face of large numbers of threads
+ running on different CPUs trying to grab UUIDs.
+
+Package: uuidgen
+Version: 2.21.2-1
+Depends: libuuid
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/util-linux
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 2846
+Filename: uuidgen_2.21.2-1_model_mtk_mt762x.ipk
+Size: 3644
+MD5Sum: 588c151ea4681326fd9ff537d5ed3a8b
+Description:  The uuidgen program creates (and prints) a new universally unique identifier
+ (UUID) using the libuuid library. The new UUID can reasonably be considered
+ unique among all UUIDs created on the local system, and among UUIDs created on
+ other systems in the past and in the future.
+
+Package: wide-dhcpv6-client
+Version: 20080615-11
+Depends: kmod-ipv6
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/wide-dhcpv6
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 82291
+Filename: wide-dhcpv6-client_20080615-11_model_mtk_mt762x.ipk
+Size: 82984
+MD5Sum: 91d931d5c568ed8d09ab4d22517631be
+Description:  WIDE-DHCPv6 is an open-source implementation of Dynamic Host Configuration Protocol
+ for IPv6 (DHCPv6) originally developed by the KAME project. The implementation
+ mainly conforms to the following standards: RFC3315,3319,3633,3646,4075,4272,etc.
+ 
+ This package installs the client component.
+
+Package: wide-dhcpv6-server
+Version: 20080615-11
+Depends: kmod-ipv6
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/wide-dhcpv6
+Section: ipv6
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 74116
+Filename: wide-dhcpv6-server_20080615-11_model_mtk_mt762x.ipk
+Size: 74896
+MD5Sum: 2418e132a2e16223c86bea13f08dc0dd
+Description:  WIDE-DHCPv6 is an open-source implementation of Dynamic Host Configuration Protocol
+ for IPv6 (DHCPv6) originally developed by the KAME project. The implementation
+ mainly conforms to the following standards: RFC3315,3319,3633,3646,4075,4272,etc.
+ 
+ This package installs the server component.
+
+Package: xl2tpd
+Version: 1.1.12-1
+Depends: kmod-pppol2tp, kmod-ppp, pppd, ip, resolveip
+Provides: 
+Source: /home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/xl2tpd
+Section: TP-LINK
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 51950
+Filename: xl2tpd_1.1.12-1_model_mtk_mt762x.ipk
+Size: 52742
+MD5Sum: 9a7a9b310ce7f27a5db616e17bf5ab7b
+Description:  l2tpd is the open source implementation of the L2TP tunneling protocol (RFC2661).
+ It does implement both LAC and LNS role in a L2TP networking architecture. The
+ main goal of this protocol is to tunnel PPP frame trough an IP network.
+
+Package: zlib
+Version: 1.2.7-1
+Depends: 
+Provides: 
+Source: package/zlib
+Section: libs
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 43047
+Filename: zlib_1.2.7-1_model_mtk_mt762x.ipk
+Size: 43722
+MD5Sum: dbf2c1b8f964c24c3ef377e507538d9c
+Description:  Library implementing the deflate compression method
+
+Package: zoneinfo-core
+Version: 2011n-1
+Depends: 
+Provides: 
+Source: package/zoneinfo
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 57711
+Filename: zoneinfo-core_2011n-1_model_mtk_mt762x.ipk
+Size: 58202
+MD5Sum: 036e96e6af337787073217263a850a3c
+Description:  Zone Information (core)
+
+Package: zoneinfo-simple
+Version: 2011n-1
+Depends: 
+Provides: 
+Source: package/zoneinfo
+Section: utils
+Status: unknown ok not-installed
+Essential: no
+Priority: optional
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Architecture: model_mtk_mt762x
+Installed-Size: 17015
+Filename: zoneinfo-simple_2011n-1_model_mtk_mt762x.ipk
+Size: 17575
+MD5Sum: e1a0da4cbd9964dff2bc856196bc2457
+Description:  Zone Information (simple)
+

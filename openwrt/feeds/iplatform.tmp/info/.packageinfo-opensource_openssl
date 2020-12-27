@@ -1,0 +1,83 @@
+Source-Makefile: feeds/iplatform/opensource/openssl/Makefile
+Package: libopenssl
+Menu: 1
+Submenu: SSL
+Version: 1.0.2d-1
+Depends:  +zlib
+Menu-Depends: 
+Provides: 
+Build-Depends: ocf-crypto-headers
+Section: TP-LINK
+Category: TP-LINK iplatform apps
+Title: Open source SSL toolkit (libraries)
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: openssl-1.0.2d.tar.gz
+Type: ipkg
+Description: The OpenSSL Project is a collaborative effort to develop a robust,
+commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+as a full-strength general purpose cryptography library.
+This package contains the OpenSSL shared libraries, needed by other programs.
+http://www.openssl.org/
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+Config:
+source "/home/leo/hd500/GPL/c6u/c6u-gpl/packages/opensource/openssl/Config.in"
+@@
+
+Package: openssl-util
+Submenu: SSL
+Version: 1.0.2d-1
+Depends:  +libopenssl
+Menu-Depends: 
+Provides: 
+Build-Depends: ocf-crypto-headers
+Section: TP-LINK
+Category: TP-LINK iplatform apps
+Title: Open source SSL toolkit (utility)
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: openssl-1.0.2d.tar.gz
+Type: ipkg
+Description: The OpenSSL Project is a collaborative effort to develop a robust,
+commercial-grade, full-featured, and Open Source toolkit implementing the Secure
+Sockets Layer (SSL v2/v3) and Transport Layer Security (TLS v1) protocols as well
+as a full-strength general purpose cryptography library.
+This package contains the OpenSSL command-line utility.
+http://www.openssl.org/
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: openssl
+Submenu: SSL
+Version: 1.0.2d-1
+Depends:  
+Menu-Depends: 
+Provides: 
+Build-Depends: ocf-crypto-headers
+Section: TP-LINK
+Category: TP-LINK iplatform apps
+Title: Open source SSL toolkit
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: openssl-1.0.2d.tar.gz
+Type: ipkg
+Description: Open source SSL toolkit
+http://www.openssl.org/
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+Config:
+	config PACKAGE_OPENSSL_VERSION
+		string "openssl compile version"
+		depends PACKAGE_openssl
+		default "1.0.1d"
+		help
+			current support valid value "1.0.1d" and "1.0.2a"
+
+	config PACKAGE_OPENSSL_SUPPORT_BRCM_SPU
+		bool "openssl patch to support brcm spu driver"
+		depends PACKAGE_openssl
+		default n
+		help
+			BRCM openssl patch which using runner to  improve performance.
+@@
+
+

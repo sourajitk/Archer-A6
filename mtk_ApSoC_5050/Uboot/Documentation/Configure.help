@@ -1,0 +1,24 @@
+LAN_WAN_PARTITION
+ The switch automatically operates in dump switch mode when the board turns on. 
+ Clients on the LAN get the dynamic IP address from the remote DHCP server connected to the WAN port.
+ Set the LAN/WAN partition to prevent the Client's DHCP request being sent to the WAN side.
+
+UBOOT_RAM
+ When flash type is SPI flash, please choose ROM version, except when you want to use Trace32 to load Uboot code, 
+ in this case, you must choose RAM version. 
+ When flash type is NAND flash, always choose RAM version. 
+ When using ROM version, the Uboot file name is uboot.bin, when using RAM Version, the Uboot file name is uboot.img
+
+DUAL_IMAGE_SUPPORT
+ Must be selected when select "Dual Image" in kernel option.
+ Please reference to "How to enable Dual Image support" in user manual.
+
+CPUCLK_FROM_CPLL
+ CPLL: is the CPU PLL, which has clock source of 580/575MHz depended on Xtal is 40/25MHz, this is also the default clock source of MT7628.
+ BPLL: BPLL is BBP PLL, which is 480MHz clock.
+ XTAL: CPU clock source is directly from Xtal source, currently this mode is not working for MT7628, please do not select this mode.
+
+CPU_FRAC_DIV
+ this is the divider of clock source.
+  
+

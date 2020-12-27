@@ -1,0 +1,18 @@
+Source-Makefile: package/feeds/iplatform/miniupnpc/Makefile
+Package: miniupnpc
+Submenu: P2P
+Version: 2.0-1
+Depends:  +libpthread
+Menu-Depends: 
+Provides: 
+Section: TP-LINK	
+Category: TP-LINK iplatform apps
+Title: miniupnpc
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Description: miniupnpc
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

@@ -1,0 +1,29 @@
+#
+# For a description of the syntax of this configuration file,
+# see Documentation/kbuild/kconfig-language.txt.
+#
+mainmenu "Linux/$ARCH $KERNELVERSION Kernel Configuration"
+
+config SRCARCH
+	string
+	option env="SRCARCH"
+
+config SUPPORT_OPENWRT
+	bool "Support OpenWrt"
+	default n
+
+choice
+	prompt "Select the products"
+	config PRODUCT_ARCHER_A10
+	bool "PRODUCT_ARCHER_A10"
+
+	config PRODUCT_ARCHER_C2300
+	bool "PRODUCT_ARCHER_C2300"
+
+	config PRODUCT_ARCHER_C6U
+	bool "PRODUCT_ARCHER_C6U"
+endchoice
+
+
+source "arch/$SRCARCH/Kconfig"
+

@@ -1,0 +1,24 @@
+Source-Makefile: package/feeds/iplatform/accel-pptpd/Makefile
+Package: accel-pptpd
+Submenu: VPN
+Version: 0.8.5-1
+Depends:  +kmod-ppp +kmod-mppe +pppd +PACKAGE_accel-pptpd_UGLY_LOG:liblog
+Menu-Depends: 
+Provides: 
+Section: net
+Category: TP-LINK iplatform apps
+Title: ACCEL-PPTP pptp server
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: accel-pptpd-0.8.5.tar.gz
+Type: ipkg
+Description: ACCEL-PPTP pptp server
+http://www.poptop.org/
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+Config:
+	config PACKAGE_accel-pptpd_UGLY_LOG
+		bool "Enable ugly log"
+		default y
+@@
+
+

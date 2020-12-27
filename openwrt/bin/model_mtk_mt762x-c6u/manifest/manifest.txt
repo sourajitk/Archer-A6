@@ -1,0 +1,2606 @@
+Package: 6rd
+Version: 2-1
+Depends: kmod-ipv6, kmod-sit
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/lib/netifd/proto/6rd.sh
+8.0K	/usr/sbin/6rdcalc
+12K	total
+
+Package: accel-pptpd
+Version: 0.8.5-1
+Depends: kmod-ppp, kmod-mppe, pppd
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/pptpd.conf cdb8b23d8921a60dffd941b5686a1dc5
+ /etc/config/pptpd 2bd9b4f3c283ce68bc18a89d223376f4
+
+4.0K	/etc/config/pptpd
+4.0K	/etc/init.d/pptpd
+4.0K	/etc/ppp/options.pptpd.sample
+4.0K	/etc/pptpd.conf
+4.0K	/lib/upgrade/keep.d/accel-pptpd
+8.0K	/usr/lib/pptpd/pptpd-logwtmp.so
+20K	/usr/sbin/bcrelay
+24K	/usr/sbin/pptpctrl
+28K	/usr/sbin/pptpd
+100K	total
+
+Package: agetty
+Version: 2.21.2-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+40K	/sbin/agetty
+40K	total
+
+Package: alsa-lib
+Version: 1.0.24.1-1
+Depends: libpthread, librt
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libasound.so.2
+1.7M	/usr/lib/libasound.so.2.0.0
+12K	/usr/share/alsa/alsa.conf
+4.0K	/usr/share/alsa/cards/AACI.conf
+4.0K	/usr/share/alsa/cards/ATIIXP-MODEM.conf
+4.0K	/usr/share/alsa/cards/ATIIXP-SPDMA.conf
+4.0K	/usr/share/alsa/cards/ATIIXP.conf
+4.0K	/usr/share/alsa/cards/AU8810.conf
+4.0K	/usr/share/alsa/cards/AU8820.conf
+4.0K	/usr/share/alsa/cards/AU8830.conf
+8.0K	/usr/share/alsa/cards/Audigy.conf
+8.0K	/usr/share/alsa/cards/Audigy2.conf
+4.0K	/usr/share/alsa/cards/Aureon51.conf
+4.0K	/usr/share/alsa/cards/Aureon71.conf
+4.0K	/usr/share/alsa/cards/CA0106.conf
+4.0K	/usr/share/alsa/cards/CMI8338-SWIEC.conf
+4.0K	/usr/share/alsa/cards/CMI8338.conf
+4.0K	/usr/share/alsa/cards/CMI8738-MC6.conf
+4.0K	/usr/share/alsa/cards/CMI8738-MC8.conf
+4.0K	/usr/share/alsa/cards/CMI8788.conf
+4.0K	/usr/share/alsa/cards/CS46xx.conf
+8.0K	/usr/share/alsa/cards/EMU10K1.conf
+4.0K	/usr/share/alsa/cards/EMU10K1X.conf
+4.0K	/usr/share/alsa/cards/ENS1370.conf
+4.0K	/usr/share/alsa/cards/ENS1371.conf
+4.0K	/usr/share/alsa/cards/ES1968.conf
+4.0K	/usr/share/alsa/cards/FM801.conf
+4.0K	/usr/share/alsa/cards/GUS.conf
+8.0K	/usr/share/alsa/cards/HDA-Intel.conf
+4.0K	/usr/share/alsa/cards/ICE1712.conf
+4.0K	/usr/share/alsa/cards/ICE1724.conf
+4.0K	/usr/share/alsa/cards/ICH-MODEM.conf
+4.0K	/usr/share/alsa/cards/ICH.conf
+4.0K	/usr/share/alsa/cards/ICH4.conf
+4.0K	/usr/share/alsa/cards/Maestro3.conf
+8.0K	/usr/share/alsa/cards/NFORCE.conf
+4.0K	/usr/share/alsa/cards/PC-Speaker.conf
+4.0K	/usr/share/alsa/cards/PMac.conf
+4.0K	/usr/share/alsa/cards/PMacToonie.conf
+4.0K	/usr/share/alsa/cards/PS3.conf
+4.0K	/usr/share/alsa/cards/RME9636.conf
+4.0K	/usr/share/alsa/cards/RME9652.conf
+4.0K	/usr/share/alsa/cards/SB-XFi.conf
+4.0K	/usr/share/alsa/cards/SI7018.conf
+4.0K	/usr/share/alsa/cards/SI7018/sndoc-mixer.alisp
+4.0K	/usr/share/alsa/cards/SI7018/sndop-mixer.alisp
+4.0K	/usr/share/alsa/cards/TRID4DWAVENX.conf
+8.0K	/usr/share/alsa/cards/USB-Audio.conf
+4.0K	/usr/share/alsa/cards/VIA686A.conf
+4.0K	/usr/share/alsa/cards/VIA8233.conf
+4.0K	/usr/share/alsa/cards/VIA8233A.conf
+4.0K	/usr/share/alsa/cards/VIA8237.conf
+4.0K	/usr/share/alsa/cards/VX222.conf
+4.0K	/usr/share/alsa/cards/VXPocket.conf
+4.0K	/usr/share/alsa/cards/VXPocket440.conf
+4.0K	/usr/share/alsa/cards/YMF744.conf
+4.0K	/usr/share/alsa/cards/aliases.alisp
+4.0K	/usr/share/alsa/cards/aliases.conf
+4.0K	/usr/share/alsa/pcm/center_lfe.conf
+4.0K	/usr/share/alsa/pcm/default.conf
+4.0K	/usr/share/alsa/pcm/dmix.conf
+4.0K	/usr/share/alsa/pcm/dpl.conf
+4.0K	/usr/share/alsa/pcm/dsnoop.conf
+4.0K	/usr/share/alsa/pcm/front.conf
+4.0K	/usr/share/alsa/pcm/hdmi.conf
+4.0K	/usr/share/alsa/pcm/iec958.conf
+4.0K	/usr/share/alsa/pcm/modem.conf
+4.0K	/usr/share/alsa/pcm/rear.conf
+4.0K	/usr/share/alsa/pcm/side.conf
+4.0K	/usr/share/alsa/pcm/surround40.conf
+4.0K	/usr/share/alsa/pcm/surround41.conf
+4.0K	/usr/share/alsa/pcm/surround50.conf
+4.0K	/usr/share/alsa/pcm/surround51.conf
+4.0K	/usr/share/alsa/pcm/surround71.conf
+2.0M	total
+
+Package: avahi-daemon
+Version: 0.6.31-5
+Depends: libavahi, libexpat, librt
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/avahi/services/adisk.service
+4.0K	/etc/avahi/services/afpd.service
+4.0K	/etc/init.d/avahi-daemon
+4.0K	/lib/upgrade/keep.d/avahi-daemon
+100K	/usr/sbin/avahi-daemon
+116K	total
+
+Package: base-files
+Version: 117-unknown
+Depends: netifd, libc
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/etc/TZ
+0	/etc/fstab
+0	/etc/mtab
+0	/etc/resolv.conf
+4.0K	/lib/debug/system
+4.0K	/lib/firstboot/05_firstboot_skip
+4.0K	/lib/firstboot/10_determine_parts
+4.0K	/lib/firstboot/10_no_fo_clear_overlay
+4.0K	/lib/firstboot/10_reset_has_mini_fo
+4.0K	/lib/firstboot/20_has_mini_fo
+4.0K	/lib/firstboot/20_no_fo_mount_jffs
+4.0K	/lib/firstboot/20_reset_clear_jffs
+4.0K	/lib/firstboot/30_is_rootfs_mounted
+4.0K	/lib/firstboot/30_no_fo_pivot
+4.0K	/lib/firstboot/30_reset_copy_rom
+4.0K	/lib/firstboot/40_copy_ramoverlay
+4.0K	/lib/firstboot/40_no_fo_copy_ramoverlay
+4.0K	/lib/firstboot/50_pivot
+4.0K	/lib/firstboot/99_10_no_fo_cleanup
+4.0K	/lib/firstboot/99_10_with_fo_cleanup
+4.0K	/lib/preinit/02_default_set_state
+4.0K	/lib/preinit/05_mount_skip
+4.0K	/lib/preinit/10_check_for_mtd
+4.0K	/lib/preinit/10_essential_fs
+4.0K	/lib/preinit/10_indicate_failsafe
+4.0K	/lib/preinit/10_indicate_preinit
+4.0K	/lib/preinit/20_check_jffs2_ready
+4.0K	/lib/preinit/20_device_fs_mount
+4.0K	/lib/preinit/30_device_fs_daemons
+4.0K	/lib/preinit/30_failsafe_wait
+4.0K	/lib/preinit/40_init_shm
+4.0K	/lib/preinit/40_mount_devpts
+4.0K	/lib/preinit/40_mount_jffs2
+4.0K	/lib/preinit/40_mount_ubifs
+4.0K	/lib/preinit/40_run_failsafe_hook
+4.0K	/lib/preinit/41_merge_overlay_hooks
+4.0K	/lib/preinit/50_choose_console
+4.0K	/lib/preinit/50_indicate_regular_preinit
+4.0K	/lib/preinit/60_init_hotplug
+4.0K	/lib/preinit/70_initramfs_test
+4.0K	/lib/preinit/70_pivot_jffs2_root
+4.0K	/lib/preinit/70_pivot_ubifs_root
+4.0K	/lib/preinit/80_mount_root
+4.0K	/lib/preinit/90_init_console
+4.0K	/lib/preinit/90_mount_no_jffs2
+4.0K	/lib/preinit/90_restore_config
+4.0K	/lib/preinit/99_10_failsafe_login
+4.0K	/lib/preinit/99_10_mount_no_mtd
+4.0K	/lib/preinit/99_10_run_init
+4.0K	/rom/note
+0	/var
+184K	total
+
+Package: base-filesystem
+Version: 1-unknown
+Depends: netifd, libc
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/hosts 0463a46c7c601af6d82f83626aa7271c
+ /etc/inittab 3fafaa42fdc6218dea5c2d54d5b2f291
+ /etc/group 76598ba5bbc1be93b2b7613993a411e7
+ /etc/passwd 55d8e4ce5b985e6e357903cc24b5387c
+ /etc/shadow 7598eaec455be5d5cf553d98ccf435f4
+ /etc/profile 2729e95cc09e5f2a7ab9daae3d7ba857
+ /etc/shells 725ba6f40dff0612f61ecd3f171bb3e1
+ /etc/sysctl.conf 1b9c0036e4c6b19df75a6207472cea3f
+ /etc/rc.local 1b7c2aa7550adc1b13d182a2320b8b84
+ /etc/sysupgrade.conf f91aef484370cefee501d64b5725c1d2
+ /etc/config/network f52a26b6216c6b10456715b0c2552c25
+ /etc/config/system 4b57a90f5e724d8f01710af5d661eaa8
+
+4.0K	/bin/ipcalc.sh
+4.0K	/bin/login.sh
+4.0K	/etc/banner
+4.0K	/etc/config/network
+4.0K	/etc/config/system
+4.0K	/etc/diag.sh
+0	/etc/functions.sh
+4.0K	/etc/group
+4.0K	/etc/hosts
+4.0K	/etc/hotplug.d/button/00-button
+4.0K	/etc/hotplug.d/ieee1394/10-ieee1394
+4.0K	/etc/hotplug.d/usb/10-usb
+4.0K	/etc/hotplug2-common.rules
+4.0K	/etc/hotplug2-init.rules
+4.0K	/etc/init.d/auto-reboot
+8.0K	/etc/init.d/boot
+4.0K	/etc/init.d/done
+4.0K	/etc/init.d/garp
+4.0K	/etc/init.d/led
+4.0K	/etc/init.d/rcS
+4.0K	/etc/init.d/sysctl
+4.0K	/etc/init.d/sysntpd
+4.0K	/etc/init.d/umount
+4.0K	/etc/init.d/usb
+4.0K	/etc/init.d/watchdog
+4.0K	/etc/inittab
+4.0K	/etc/openwrt_release
+4.0K	/etc/openwrt_version
+4.0K	/etc/passwd
+4.0K	/etc/preinit
+4.0K	/etc/profile
+4.0K	/etc/protocols
+4.0K	/etc/rc.common
+4.0K	/etc/rc.local
+4.0K	/etc/services
+4.0K	/etc/shadow
+4.0K	/etc/shells
+4.0K	/etc/sysctl.conf
+4.0K	/etc/sysupgrade.conf
+4.0K	/etc/uci-defaults/migrate-shadow
+4.0K	/etc/uci-defaults/migrate-sysctl
+8.0K	/lib/functions.sh
+4.0K	/lib/functions/boot.sh
+4.0K	/lib/functions/gpio-button-hotplug.sh
+4.0K	/lib/functions/network.sh
+4.0K	/lib/functions/service.sh
+8.0K	/lib/functions/uci-defaults.sh
+8.0K	/lib/functions/uci-protocol-defaults.sh
+8.0K	/lib/upgrade/common.sh
+4.0K	/lib/upgrade/keep.d/base-files-essential
+4.0K	/lib/upgrade/keep.d/base-filesystem
+4.0K	/lib/upgrade/platform.sh
+4.0K	/lib/usb/usb.sh
+4.0K	/lib/usb/usblog.sh
+4.0K	/sbin/firstboot
+4.0K	/sbin/gen_passwd
+4.0K	/sbin/getfirm
+4.0K	/sbin/gratuitous_arp
+4.0K	/sbin/hotplug-call
+4.0K	/sbin/led.sh
+4.0K	/sbin/loadconfig
+4.0K	/sbin/loadprofile
+4.0K	/sbin/mount_root
+4.0K	/sbin/network_firm
+4.0K	/sbin/network_get_firm
+4.0K	/sbin/sound
+4.0K	/sbin/sysdebug
+8.0K	/sbin/sysupgrade
+4.0K	/sbin/tddp_hook_close_txbf
+8.0K	/sbin/wifi
+4.0K	/sbin/wifi_check_country
+4.0K	/sbin/wifi_commit
+4.0K	/usr/sbin/dut_auto_reboot
+4.0K	/usr/sbin/timeout_reboot_f
+320K	total
+
+Package: bdb
+Version: 4.8.30-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+904K	/usr/lib/libdb-4.8.so
+0	/usr/lib/libdb-4.so
+0	/usr/lib/libdb.so
+904K	total
+
+Package: blkid
+Version: 2.21.2-1
+Depends: libblkid
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+48K	/sbin/blkid
+48K	total
+
+Package: block-mount
+Version: 0.2.0-9
+Depends: blkid, swap-utils
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/fstab 20bbede62549e8e4d038d6247e09365a
+
+4.0K	/etc/config/fstab
+4.0K	/etc/hotplug.d/block/10-swap
+4.0K	/etc/hotplug.d/block/20-fsck
+8.0K	/etc/hotplug.d/block/40-mount
+4.0K	/etc/init.d/fstab
+8.0K	/lib/functions/block.sh
+4.0K	/lib/functions/extmount.sh
+4.0K	/lib/functions/fsck.sh
+4.0K	/lib/functions/mount.sh
+4.0K	/lib/preinit/00_extroot.conf
+4.0K	/lib/preinit/50_determine_usb_root
+4.0K	/lib/preinit/55_determine_extroot_sysupgrade
+4.0K	/lib/preinit/60_pivot_usb_root
+60K	total
+
+Package: bridge
+Version: 1.5-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+52K	/usr/sbin/brctl
+52K	total
+
+Package: busybox
+Version: 1.19.4-6
+Depends: common
+Provides:
+Status: install ok installed
+Essential: yes
+Architecture: model_mtk_mt762x
+
+0	/bin/ash
+536K	/bin/busybox
+0	/bin/cat
+0	/bin/chgrp
+0	/bin/chmod
+0	/bin/chown
+0	/bin/cp
+0	/bin/date
+0	/bin/dd
+0	/bin/df
+0	/bin/dmesg
+0	/bin/echo
+0	/bin/egrep
+0	/bin/false
+0	/bin/fgrep
+0	/bin/fsync
+0	/bin/grep
+0	/bin/gunzip
+0	/bin/gzip
+0	/bin/kill
+0	/bin/ln
+0	/bin/lock
+0	/bin/ls
+0	/bin/mkdir
+0	/bin/mknod
+0	/bin/mktemp
+0	/bin/mv
+0	/bin/netmsg
+0	/bin/netstat
+0	/bin/nice
+0	/bin/pidof
+0	/bin/ping
+0	/bin/ping6
+0	/bin/ps
+0	/bin/pwd
+0	/bin/rm
+0	/bin/rmdir
+0	/bin/sed
+0	/bin/sh
+0	/bin/sleep
+0	/bin/sync
+0	/bin/tar
+0	/bin/touch
+0	/bin/true
+0	/bin/uname
+0	/bin/usleep
+0	/bin/vi
+0	/bin/zcat
+0	/etc/crontabs/root
+4.0K	/etc/init.d/cron
+4.0K	/etc/init.d/telnet
+0	/sbin/fdisk
+0	/sbin/halt
+0	/sbin/hwclock
+0	/sbin/ifconfig
+0	/sbin/init
+0	/sbin/insmod
+0	/sbin/klogd
+0	/sbin/lsmod
+0	/sbin/mdev
+0	/sbin/mkdosfs
+0	/sbin/mke2fs
+0	/sbin/mkfs.ext2
+0	/sbin/mkfs.vfat
+0	/sbin/pivot_root
+0	/sbin/poweroff
+0	/sbin/reboot
+0	/sbin/rmmod
+0	/sbin/route
+0	/sbin/start-stop-daemon
+0	/sbin/switch_root
+0	/sbin/sysctl
+0	/sbin/udhcpc
+0	/sbin/vconfig
+0	/sbin/watchdog
+0	/usr/bin/[
+0	/usr/bin/[[
+0	/usr/bin/arping
+0	/usr/bin/awk
+0	/usr/bin/basename
+0	/usr/bin/bunzip2
+0	/usr/bin/bzcat
+0	/usr/bin/clear
+0	/usr/bin/cmp
+0	/usr/bin/crontab
+0	/usr/bin/cut
+0	/usr/bin/dirname
+0	/usr/bin/du
+0	/usr/bin/env
+0	/usr/bin/expr
+0	/usr/bin/find
+0	/usr/bin/free
+0	/usr/bin/head
+0	/usr/bin/hexdump
+0	/usr/bin/hostid
+0	/usr/bin/id
+0	/usr/bin/killall
+0	/usr/bin/less
+0	/usr/bin/logger
+0	/usr/bin/mac_addr
+0	/usr/bin/md5sum
+0	/usr/bin/mkfifo
+0	/usr/bin/nc
+0	/usr/bin/nslookup
+0	/usr/bin/passwd
+0	/usr/bin/pgrep
+0	/usr/bin/printf
+0	/usr/bin/readlink
+0	/usr/bin/reset
+0	/usr/bin/seq
+0	/usr/bin/sort
+0	/usr/bin/strings
+0	/usr/bin/tail
+0	/usr/bin/taskset
+0	/usr/bin/tee
+0	/usr/bin/telnet
+0	/usr/bin/test
+0	/usr/bin/tftp
+0	/usr/bin/time
+0	/usr/bin/top
+0	/usr/bin/tr
+0	/usr/bin/traceroute
+0	/usr/bin/uniq
+0	/usr/bin/unzip
+0	/usr/bin/uptime
+0	/usr/bin/wc
+0	/usr/bin/wget
+0	/usr/bin/which
+0	/usr/bin/xargs
+0	/usr/bin/yes
+0	/usr/sbin/chroot
+0	/usr/sbin/crond
+0	/usr/sbin/telnetd
+544K	total
+
+Package: cal
+Version: 2.21.2-1
+Depends: libncurses
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+40K	/usr/bin/cal
+40K	total
+
+Package: conntrack-tools
+Version: 1.0.0-1
+Depends: libnetfilter-conntrack
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/conntrackd/conntrackd.conf 1d6497f4781ca1d72f2f901bd4cdee80
+
+4.0K	/etc/conntrackd/conntrackd.conf
+76K	/usr/sbin/conntrack
+308K	/usr/sbin/conntrackd
+388K	total
+
+Package: curl
+Version: 7.29.0-1
+Depends: libcurl
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+112K	/usr/bin/curl
+112K	total
+
+Package: ddns-scripts
+Version: 1.0.0-21
+Depends: dnslookup
+Provides:
+Status: install ok installed
+Architecture: all
+Conffiles:
+ /etc/config/ddns d404b2173e2299210205c9e6f91cff5e
+
+4.0K	/etc/config/ddns
+4.0K	/etc/hotplug.d/iface/25-ddns
+8.0K	/usr/lib/ddns/dynamic_dns_dyndns.sh
+8.0K	/usr/lib/ddns/dynamic_dns_functions.sh
+4.0K	/usr/lib/ddns/dynamic_dns_log.sh
+8.0K	/usr/lib/ddns/dynamic_dns_noip.sh
+12K	/usr/lib/ddns/dynamic_dns_updater.sh
+4.0K	/usr/lib/ddns/services
+4.0K	/usr/lib/ddns/url_escape.sed
+4.0K	/usr/sbin/ddns
+60K	total
+
+Package: dnsmasq
+Version: 2.62-2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/dhcp 26dd6eb326cffb94b91050969e596952
+ /etc/dnsmasq.conf 7cf378e58d3fe5db31f4116a16c15c61
+
+4.0K	/etc/config/dhcp
+4.0K	/etc/dnsmasq.conf
+4.0K	/etc/hotplug.d/iface/60-dnsmasq
+16K	/etc/init.d/dnsmasq
+328K	/usr/sbin/dnsmasq
+356K	total
+
+Package: dropbear
+Version: 2011.54-2
+Depends: liblua
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/dropbear/dropbear_rsa_host_key d41d8cd98f00b204e9800998ecf8427e
+ /etc/dropbear/dropbear_dss_host_key d41d8cd98f00b204e9800998ecf8427e
+ /etc/config/dropbear a95420a9e43b2afcdc7152ad2c903abe
+
+4.0K	/etc/config/dropbear
+0	/etc/dropbear/dropbear_dss_host_key
+0	/etc/dropbear/dropbear_rsa_host_key
+8.0K	/etc/init.d/dropbear
+0	/usr/bin/dbclient
+0	/usr/bin/dropbearkey
+0	/usr/bin/scp
+0	/usr/bin/ssh
+440K	/usr/sbin/dropbear
+452K	total
+
+Package: ds-lite
+Version: 1-1
+Depends: kmod-ipv6, kmod-ip6-tunnel
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/lib/netifd/proto/dslite.sh
+4.0K	total
+
+Package: fdk-aac
+Version: 0.1.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libfdk-aac.so
+0	/usr/lib/libfdk-aac.so.0
+1.1M	/usr/lib/libfdk-aac.so.0.0.2
+1.1M	total
+
+Package: firewall
+Version: 2-55.1
+Depends: iptables, kmod-ipt-conntrack, kmod-ipt-nat
+Provides:
+Status: install ok installed
+Architecture: all
+Conffiles:
+ /etc/config/firewall 08ef8fc70f91bf121f82589d82605e7c
+ /etc/firewall.user 43e25ef73306f7ea73813d648990b181
+
+4.0K	/etc/config/firewall
+4.0K	/etc/firewall.user
+4.0K	/etc/hotplug.d/firewall/10-nat-reflection
+4.0K	/etc/hotplug.d/iface/20-firewall
+4.0K	/etc/init.d/firewall
+4.0K	/lib/firewall/config.sh
+4.0K	/lib/firewall/core.sh
+4.0K	/lib/firewall/core_forwarding.sh
+8.0K	/lib/firewall/core_init.sh
+8.0K	/lib/firewall/core_interface.sh
+4.0K	/lib/firewall/core_log.sh
+4.0K	/lib/firewall/core_redirect.sh
+4.0K	/lib/firewall/core_rule.sh
+4.0K	/lib/firewall/core_tpcmd.sh
+12K	/lib/firewall/fw.sh
+16K	/lib/firewall/tpcmd.sh
+4.0K	/lib/firewall/uci_firewall.sh
+4.0K	/lib/upgrade/keep.d/firewall
+4.0K	/sbin/fw
+104K	total
+
+Package: flock
+Version: 2.21.2-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+32K	/usr/bin/flock
+32K	total
+
+Package: getopt
+Version: 2.21.2-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+16K	/usr/bin/getopt
+16K	total
+
+Package: hfs-fsck
+Version: 332.25-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/lib/functions/fsck/hfs-fsck.sh
+0	/usr/sbin/fsck.hfs
+0	/usr/sbin/fsck.hfsplus
+412K	/usr/sbin/fsck_hfs
+416K	total
+
+Package: hotplug2
+Version: 1.0-beta-4
+Depends: libbsd
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/hotplug2.rules d4975ba71cf50d3d3c286b0de0f0929a
+
+4.0K	/etc/hotplug2.rules
+64K	/sbin/hotplug2
+12K	/sbin/udevtrigger
+80K	total
+
+Package: improxy
+Version: 1.0-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/improxy 0d35cf18b3ad6555ed9638d73cd04e4b
+
+4.0K	/etc/config/improxy
+4.0K	/etc/hotplug.d/firewall/50-improxy
+4.0K	/etc/hotplug.d/iface/50-improxy
+4.0K	/etc/init.d/improxy
+96K	/usr/sbin/improxy
+112K	total
+
+Package: ip
+Version: 3.3.0-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/iproute2/rt_tables a1313318d6778fe6b8c680248ef5a463
+
+4.0K	/etc/iproute2/rt_tables
+284K	/usr/sbin/ip
+288K	total
+
+Package: ip6tables
+Version: 1.4.21-1
+Depends: kmod-ip6tables, iptables
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/sbin/ip6tables
+0	/usr/sbin/ip6tables-restore
+0	/usr/sbin/ip6tables-save
+0	total
+
+Package: ip6tables-extra
+Version: 1.4.21-1
+Depends: ip6tables, kmod-ip6tables-extra
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+Package: ip6tables-mod-nat
+Version: 1.4.21-1
+Depends: ip6tables, kmod-ipt-nat6
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+Package: iperf
+Version: 2.0.5-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+104K	/usr/sbin/iperf
+104K	total
+
+Package: iptables
+Version: 1.4.21-1
+Depends: kmod-ipt-core, libip4tc, libip6tc, libxtables
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/sbin/iptables
+0	/usr/sbin/iptables-restore
+0	/usr/sbin/iptables-save
+572K	/usr/sbin/xtables-multi
+572K	total
+
+Package: iptables-mod-LOOPBACKDNAT
+Version: 2.10-3.1
+Depends: iptables, kmod-ipt-LOOPBACKDNAT
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/usr/lib/iptables/libipt_LOOPBACKDNAT.so
+8.0K	total
+
+Package: iptables-mod-extra
+Version: 1.4.21-1
+Depends: iptables, kmod-ipt-extra
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+Package: iptables-mod-iprange
+Version: 1.4.21-1
+Depends: iptables, kmod-ipt-iprange
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+Package: iptables-mod-pctl
+Version: 2.10-3.1
+Depends: iptables, kmod-ipt-pctl
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+12K	/usr/lib/iptables/libxt_pctl.so
+12K	total
+
+Package: iptables-mod-trigger
+Version: 2.10-3.1
+Depends: iptables, kmod-ipt-trigger
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/usr/lib/iptables/libipt_TRIGGER.so
+8.0K	total
+
+Package: iputils-ping6
+Version: 20101006-1
+Depends: libopenssl
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+48K	/usr/sbin/ping6
+48K	total
+
+Package: iwinfo
+Version: 36
+Depends: libiwinfo
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+28K	/usr/bin/iwinfo
+28K	total
+
+Package: jpeg-tools
+Version: 6b-1
+Depends: libjpeg
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+44K	/usr/bin/cjpeg
+52K	/usr/bin/djpeg
+52K	/usr/bin/jpegtran
+148K	total
+
+Package: jshn
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: libjson
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+12K	/usr/bin/jshn
+8.0K	/usr/share/libubox/jshn.sh
+20K	total
+
+Package: kernel
+Version: --unknown
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-crypto-arc4
+Version: -
+Depends: kernel (= --unknown), kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-crypto-ecb
+Version: -
+Depends: kernel (= --unknown), kmod-crypto-manager, kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-crypto-hash
+Version: -
+Depends: kernel (= --unknown), kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-crypto-sha1
+Version: -
+Depends: kernel (= --unknown), kmod-crypto-hash, kmod-crypto-core
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-fs-ntfs
+Version: -
+Depends: kernel (= --unknown), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-fs-vfat
+Version: -
+Depends: kernel (= --unknown), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-fuse
+Version: -
+Depends: kernel (= --unknown)
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/80-fuse
+116K	/lib/modules/iplatform/fuse.ko
+120K	total
+
+Package: kmod-gre
+Version: -
+Depends: kernel (= --unknown), kmod-ipv6
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/39-gre
+8.0K	/lib/modules/iplatform/gre.ko
+16K	/lib/modules/iplatform/ip_gre.ko
+28K	total
+
+Package: kmod-ip6-tunnel
+Version: -
+Depends: kernel (= --unknown), kmod-ipv6, kmod-iptunnel6
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-ipt-LOOPBACKDNAT
+Version: +2.10-3.1
+Depends: kernel (= --unknown), kmod-ipt-core
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/46-ipt-LOOPBACKDNAT
+8.0K	/lib/modules/iplatform/xt_LOOPBACKDNAT.ko
+12K	total
+
+Package: kmod-ipt-compat-xtables
+Version: +2.10-3.1
+Depends: kernel (= --unknown), kmod-ipt-core
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/45-ipt-compat-xtables
+4.0K	/lib/modules/iplatform/compat_xtables.ko
+8.0K	total
+
+Package: kmod-ipt-nathelper
+Version: -
+Depends: kernel (= --unknown), kmod-ipt-core, kmod-ipt-nat
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/45-ipt-nathelper
+12K	/lib/modules/iplatform/nf_conntrack_ftp.ko
+8.0K	/lib/modules/iplatform/nf_conntrack_irc.ko
+4.0K	/lib/modules/iplatform/nf_nat_ftp.ko
+4.0K	/lib/modules/iplatform/nf_nat_irc.ko
+32K	total
+
+Package: kmod-ipt-nathelper-extra
+Version: -
+Depends: kernel (= --unknown), kmod-ipt-core, kmod-ipt-nat, kmod-lib-textsearch
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/45-ipt-nathelper-extra
+8.0K	/lib/modules/iplatform/nf_conntrack_amanda.ko
+4.0K	/lib/modules/iplatform/nf_conntrack_broadcast.ko
+44K	/lib/modules/iplatform/nf_conntrack_h323.ko
+8.0K	/lib/modules/iplatform/nf_conntrack_pptp.ko
+8.0K	/lib/modules/iplatform/nf_conntrack_proto_gre.ko
+32K	/lib/modules/iplatform/nf_conntrack_sip.ko
+4.0K	/lib/modules/iplatform/nf_conntrack_snmp.ko
+8.0K	/lib/modules/iplatform/nf_conntrack_tftp.ko
+4.0K	/lib/modules/iplatform/nf_nat_amanda.ko
+12K	/lib/modules/iplatform/nf_nat_h323.ko
+4.0K	/lib/modules/iplatform/nf_nat_pptp.ko
+4.0K	/lib/modules/iplatform/nf_nat_proto_gre.ko
+16K	/lib/modules/iplatform/nf_nat_sip.ko
+16K	/lib/modules/iplatform/nf_nat_snmp_basic.ko
+4.0K	/lib/modules/iplatform/nf_nat_tftp.ko
+180K	total
+
+Package: kmod-ipt-pctl
+Version: +2.10-3.1
+Depends: kernel (= --unknown), kmod-ipt-core
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/46-ipt-pctl
+24K	/lib/modules/iplatform/xt_pctl.ko
+28K	total
+
+Package: kmod-ipt-trigger
+Version: +2.10-3.1
+Depends: kernel (= --unknown), kmod-ipt-core, kmod-ipt-compat-xtables
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/46-ipt-trigger
+8.0K	/lib/modules/iplatform/ipt_TRIGGER.ko
+12K	total
+
+Package: kmod-iptunnel4
+Version: -
+Depends: kernel (= --unknown)
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-iptunnel6
+Version: -
+Depends: kernel (= --unknown), kmod-ipv6
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-ipv6
+Version: -
+Depends: kernel (= --unknown)
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-l2tp
+Version: -
+Depends: kernel (= --unknown)
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-lib-crc-ccitt
+Version: -
+Depends: kernel (= --unknown)
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-lib-textsearch
+Version: -
+Depends: kernel (= --unknown)
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-mppe
+Version: -
+Depends: kernel (= --unknown), kmod-ppp, kmod-crypto-core, kmod-crypto-arc4, kmod-crypto-sha1, kmod-crypto-ecb
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/31-mppe
+12K	/lib/modules/iplatform/ppp_mppe.ko
+16K	total
+
+Package: kmod-nf-conntrack-netlink
+Version: -
+Depends: kernel (= --unknown), kmod-nfnetlink, kmod-ipt-conntrack
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-nfnetlink
+Version: -
+Depends: kernel (= --unknown), kmod-ipt-core
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-nls-base
+Version: -
+Depends: kernel (= --unknown)
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-nls-utf8
+Version: -
+Depends: kernel (= --unknown), kmod-nls-base
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-ppp
+Version: -
+Depends: kernel (= --unknown), kmod-lib-crc-ccitt
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-pppoe
+Version: -
+Depends: kernel (= --unknown), kmod-ppp, kmod-pppox
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/41-pppoe
+20K	/lib/modules/iplatform/pppoe.ko
+24K	total
+
+Package: kmod-pppol2tp
+Version: -
+Depends: kernel (= --unknown), kmod-ppp, kmod-pppox, kmod-l2tp
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/41-pppol2tp
+28K	/lib/modules/iplatform/l2tp_ppp.ko
+32K	total
+
+Package: kmod-pppox
+Version: -
+Depends: kernel (= --unknown), kmod-ppp
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/40-pppox
+4.0K	/lib/modules/iplatform/pppox.ko
+8.0K	total
+
+Package: kmod-sit
+Version: -
+Depends: kernel (= --unknown), kmod-ipv6, kmod-iptunnel4
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+Package: kmod-tun
+Version: -
+Depends: kernel (= --unknown)
+Provides:
+Status: install hold installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/modules.d/30-tun
+32K	/lib/modules/iplatform/tun.ko
+36K	total
+
+Package: libavahi
+Version: 0.6.31-5
+Depends: libdaemon, libpthread
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libavahi-common.so.3
+84K	/usr/lib/libavahi-common.so.3.5.3
+0	/usr/lib/libavahi-core.so.7
+392K	/usr/lib/libavahi-core.so.7.0.2
+476K	total
+
+Package: libblkid
+Version: 2.21.2-1
+Depends: libuuid
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libblkid.so.1
+320K	/usr/lib/libblkid.so.1.1.0
+320K	total
+
+Package: libblobmsg-json
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Depends: libjson, libubox
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+12K	/lib/libblobmsg_json.so
+12K	total
+
+Package: libbsd
+Version: 0.3.0-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/lib/libbsd.so
+0	/lib/libbsd.so.0
+88K	/lib/libbsd.so.0.3.0
+88K	total
+
+Package: libbz2
+Version: 1.0.6-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libbz2.so.1.0
+144K	/usr/lib/libbz2.so.1.0.6
+144K	total
+
+Package: libc
+Version: -1
+Depends: libgcc
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: model_mtk_mt762x
+
+28K	/lib/ld-uClibc-0.9.33.2.so
+0	/lib/ld-uClibc.so.0
+0	/lib/libc.so.0
+12K	/lib/libcrypt-0.9.33.2.so
+0	/lib/libcrypt.so.0
+12K	/lib/libdl-0.9.33.2.so
+0	/lib/libdl.so.0
+96K	/lib/libm-0.9.33.2.so
+0	/lib/libm.so.0
+4.0K	/lib/libnsl-0.9.33.2.so
+0	/lib/libnsl.so.0
+4.0K	/lib/libresolv-0.9.33.2.so
+0	/lib/libresolv.so.0
+436K	/lib/libuClibc-0.9.33.2.so
+8.0K	/lib/libutil-0.9.33.2.so
+0	/lib/libutil.so.0
+600K	total
+
+Package: libc-ares
+Version: 1.15.0-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libcares.so.2
+80K	/usr/lib/libcares.so.2.3.0
+80K	total
+
+Package: libcurl
+Version: 7.29.0-1
+Depends: libopenssl, zlib, libc-ares
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libcurl.so.4
+348K	/usr/lib/libcurl.so.4.3.0
+348K	total
+
+Package: libdaemon
+Version: 0.14-2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libdaemon.so.0
+36K	/usr/lib/libdaemon.so.0.5.0
+36K	total
+
+Package: libevent
+Version: 2.1.8-1
+Depends: libpthread, libopenssl
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libevent-2.1.so.6
+0	/usr/lib/libevent-2.1.so.6.0.2
+604K	/usr/lib/libevent.so
+604K	total
+
+Package: libexif
+Version: 0.6.19-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libexif.so.12
+320K	/usr/lib/libexif.so.12.3.1
+320K	total
+
+Package: libexpat
+Version: 2.0.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libexpat.so.1
+300K	/usr/lib/libexpat.so.1.5.2
+300K	total
+
+Package: libffmpeg-mini
+Version: 0.11.2-1
+Depends: libpthread, zlib, libbz2
+Provides: libffmpeg
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libavcodec.so.54
+1.4M	/usr/lib/libavcodec.so.54.23.100
+0	/usr/lib/libavdevice.so.54
+8.0K	/usr/lib/libavdevice.so.54.0.100
+0	/usr/lib/libavformat.so.54
+832K	/usr/lib/libavformat.so.54.6.100
+0	/usr/lib/libavutil.so.51
+132K	/usr/lib/libavutil.so.51.54.100
+2.3M	total
+
+Package: libflac
+Version: 1.2.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libFLAC.so
+0	/usr/lib/libFLAC.so.8
+348K	/usr/lib/libFLAC.so.8.2.0
+348K	total
+
+Package: libgcc
+Version: -1
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: model_mtk_mt762x
+
+220K	/lib/libgcc_s.so.1
+220K	total
+
+Package: libgcrypt
+Version: 1.5.0-1
+Depends: libgpg-error
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libgcrypt.so.11
+712K	/usr/lib/libgcrypt.so.11.7.0
+712K	total
+
+Package: libgpg-error
+Version: 1.9-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libgpg-error.so.0
+16K	/usr/lib/libgpg-error.so.0.7.0
+16K	total
+
+Package: libiconv-full
+Version: 1.11.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libiconv.so
+0	/usr/lib/libiconv.so.2
+168K	/usr/lib/libiconv.so.2.4.0
+168K	total
+
+Package: libid3tag
+Version: 0.15.1b-3
+Depends: zlib
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libid3tag.so.0
+104K	/usr/lib/libid3tag.so.0.3.0
+104K	total
+
+Package: libifaddrs
+Version: 1.0.0
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+20K	/usr/lib/libifaddrs.so
+20K	total
+
+Package: libintl-full
+Version: 0.18.1.1-2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libintl.so
+0	/usr/lib/libintl.so.8
+68K	/usr/lib/libintl.so.8.1.1
+68K	total
+
+Package: libip4tc
+Version: 1.4.21-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libip4tc.so
+0	/usr/lib/libip4tc.so.0
+48K	/usr/lib/libip4tc.so.0.1.0
+48K	total
+
+Package: libip6tc
+Version: 1.4.21-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libip6tc.so
+0	/usr/lib/libip6tc.so.0
+48K	/usr/lib/libip6tc.so.0.1.0
+48K	total
+
+Package: libiwinfo
+Version: 36
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+44K	/usr/lib/libiwinfo.so
+44K	total
+
+Package: libiwinfo-lua
+Version: 36
+Depends: libiwinfo, liblua, lua
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+28K	/usr/lib/lua/iwinfo.so
+28K	total
+
+Package: libjpeg
+Version: 6b-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libjpeg.so.62
+280K	/usr/lib/libjpeg.so.62.0.0
+280K	total
+
+Package: libjson
+Version: 0.9-2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libjson.so.0
+52K	/usr/lib/libjson.so.0.0.1
+52K	total
+
+Package: liblua
+Version: 5.1.4-8
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+352K	/usr/lib/liblua.so.5.1.4
+352K	total
+
+Package: liblzo
+Version: 2.06-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/liblzo2.so
+0	/usr/lib/liblzo2.so.2
+284K	/usr/lib/liblzo2.so.2.0.0
+284K	total
+
+Package: libmount
+Version: 2.21.2-1
+Depends: libblkid
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libmount.so.1
+304K	/usr/lib/libmount.so.1.1.0
+304K	total
+
+Package: libncurses
+Version: 5.7-5
+Depends: terminfo
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libcurses.so
+0	/usr/lib/libform.so
+0	/usr/lib/libform.so.5
+108K	/usr/lib/libform.so.5.7
+0	/usr/lib/libmenu.so
+0	/usr/lib/libmenu.so.5
+52K	/usr/lib/libmenu.so.5.7
+0	/usr/lib/libncurses.so
+0	/usr/lib/libncurses.so.5
+356K	/usr/lib/libncurses.so.5.7
+0	/usr/lib/libpanel.so
+0	/usr/lib/libpanel.so.5
+24K	/usr/lib/libpanel.so.5.7
+540K	total
+
+Package: libnetfilter-conntrack
+Version: 0.9.1-1
+Depends: libnfnetlink, kmod-nf-conntrack-netlink
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libnetfilter_conntrack.so.3
+164K	/usr/lib/libnetfilter_conntrack.so.3.1.3
+164K	total
+
+Package: libnfnetlink
+Version: 1.0.0-2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libnfnetlink.so.0
+40K	/usr/lib/libnfnetlink.so.0.2.0
+40K	total
+
+Package: libnl-tiny
+Version: 0.1-3
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+68K	/usr/lib/libnl-tiny.so
+68K	total
+
+Package: libogg
+Version: 1.1.4-2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libogg.so.0
+24K	/usr/lib/libogg.so.0.6.0
+24K	total
+
+Package: libopenssl
+Version: 1.0.2d-1
+Depends: zlib
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+2.8M	/usr/lib/libcrypto.so.1.0.0
+680K	/usr/lib/libssl.so.1.0.0
+3.4M	total
+
+Package: libpcap
+Version: 1.1.1-2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libpcap.so
+0	/usr/lib/libpcap.so.1.1
+340K	/usr/lib/libpcap.so.1.1.1
+340K	total
+
+Package: libpolarssl
+Version: 1.2.12-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libpolarssl.so
+348K	/usr/lib/libpolarssl.so.1.2.12
+0	/usr/lib/libpolarssl.so.3
+348K	total
+
+Package: libpthread
+Version: -1
+Depends: libgcc
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: model_mtk_mt762x
+
+76K	/lib/libpthread-0.9.33.2.so
+0	/lib/libpthread.so.0
+76K	total
+
+Package: librt
+Version: -1
+Depends: libpthread
+Provides:
+Status: install hold installed
+Essential: yes
+Architecture: model_mtk_mt762x
+
+8.0K	/lib/librt-0.9.33.2.so
+0	/lib/librt.so.0
+8.0K	total
+
+Package: libsqlite3
+Version: 3071201-1
+Depends: libpthread
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libsqlite3.so.0
+1.4M	/usr/lib/libsqlite3.so.0.8.6
+1.4M	total
+
+Package: libtiff
+Version: 4.0.3-1
+Depends: zlib, libjpeg
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libtiff.so.5
+756K	/usr/lib/libtiff.so.5.2.0
+756K	total
+
+Package: libubox
+Version: 2013-07-04-11e8afea0f7eb34f8c23a8e589ee659c46f3f8aa
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+44K	/lib/libubox.so
+44K	total
+
+Package: libubus
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libubox
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+20K	/lib/libubus.so
+20K	/lib/lua/ubus.so
+40K	total
+
+Package: libubus-lua
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libubus, liblua
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+20K	/usr/lib/lua/ubus.so
+20K	total
+
+Package: libuci
+Version: 2013-01-04.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+44K	/lib/libuci.so
+44K	total
+
+Package: libuci-lua
+Version: 2013-01-04.1-1
+Depends: libuci, liblua, libxml2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+32K	/usr/lib/lua/uci.so
+32K	total
+
+Package: libuuid
+Version: 2.21.2-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libuuid.so.1
+24K	/usr/lib/libuuid.so.1.3.0
+24K	total
+
+Package: libvorbis
+Version: 1.2.3-1
+Depends: libogg
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libvorbis.so.0
+248K	/usr/lib/libvorbis.so.0.4.3
+0	/usr/lib/libvorbisenc.so.2
+1008K	/usr/lib/libvorbisenc.so.2.0.6
+0	/usr/lib/libvorbisfile.so.3
+40K	/usr/lib/libvorbisfile.so.3.3.2
+1.3M	total
+
+Package: libxml2
+Version: 2.7.8-1
+Depends: libpthread, zlib
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libxml2.so
+0	/usr/lib/libxml2.so.2
+2.6M	/usr/lib/libxml2.so.2.7.8
+2.6M	total
+
+Package: libxtables
+Version: 1.4.21-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libxtables.so
+0	/usr/lib/libxtables.so.10
+76K	/usr/lib/libxtables.so.10.0.0
+76K	total
+
+Package: lua
+Version: 5.1.4-8
+Depends: liblua
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+20K	/usr/bin/lua
+20K	total
+
+Package: luac
+Version: 5.1.4-8
+Depends: liblua
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+20K	/usr/bin/luac
+20K	total
+
+Package: luasec
+Version: 0.4-1
+Depends: lua, libopenssl, luasocket
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/usr/lib/lua/ssl.lua
+28K	/usr/lib/lua/ssl.so
+4.0K	/usr/lib/lua/ssl/https.lua
+36K	total
+
+Package: luasocket
+Version: 2.0.2-3
+Depends: lua
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/usr/lib/lua/ltn12.lua
+4.0K	/usr/lib/lua/mime.lua
+20K	/usr/lib/lua/mime.so.1.0.2
+0	/usr/lib/lua/mime/core.so
+4.0K	/usr/lib/lua/socket.lua
+56K	/usr/lib/lua/socket.so.2.0.2
+0	/usr/lib/lua/socket/core.so
+12K	/usr/lib/lua/socket/ftp.lua
+12K	/usr/lib/lua/socket/http.lua
+12K	/usr/lib/lua/socket/smtp.lua
+4.0K	/usr/lib/lua/socket/tp.lua
+12K	/usr/lib/lua/socket/url.lua
+144K	total
+
+Package: luci-app-firewall
+Version: 0.11.1-1
+Depends: firewall
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/usr/lib/lua/luci/controller/firewall.lua
+4.0K	/usr/lib/lua/luci/i18n/firewall.ca.lmo
+8.0K	/usr/lib/lua/luci/i18n/firewall.cs.lmo
+8.0K	/usr/lib/lua/luci/i18n/firewall.de.lmo
+4.0K	/usr/lib/lua/luci/i18n/firewall.el.lmo
+8.0K	/usr/lib/lua/luci/i18n/firewall.es.lmo
+4.0K	/usr/lib/lua/luci/i18n/firewall.fr.lmo
+8.0K	/usr/lib/lua/luci/i18n/firewall.hu.lmo
+4.0K	/usr/lib/lua/luci/i18n/firewall.it.lmo
+12K	/usr/lib/lua/luci/i18n/firewall.ja.lmo
+4.0K	/usr/lib/lua/luci/i18n/firewall.no.lmo
+8.0K	/usr/lib/lua/luci/i18n/firewall.pl.lmo
+8.0K	/usr/lib/lua/luci/i18n/firewall.pt-br.lmo
+4.0K	/usr/lib/lua/luci/i18n/firewall.pt.lmo
+4.0K	/usr/lib/lua/luci/i18n/firewall.ro.lmo
+12K	/usr/lib/lua/luci/i18n/firewall.ru.lmo
+12K	/usr/lib/lua/luci/i18n/firewall.uk.lmo
+4.0K	/usr/lib/lua/luci/i18n/firewall.vi.lmo
+8.0K	/usr/lib/lua/luci/i18n/firewall.zh-cn.lmo
+4.0K	/usr/lib/lua/luci/model/cbi/firewall/custom.lua
+8.0K	/usr/lib/lua/luci/model/cbi/firewall/forward-details.lua
+4.0K	/usr/lib/lua/luci/model/cbi/firewall/forwards.lua
+12K	/usr/lib/lua/luci/model/cbi/firewall/rule-details.lua
+8.0K	/usr/lib/lua/luci/model/cbi/firewall/rules.lua
+8.0K	/usr/lib/lua/luci/model/cbi/firewall/zone-details.lua
+4.0K	/usr/lib/lua/luci/model/cbi/firewall/zones.lua
+8.0K	/usr/lib/lua/luci/tools/firewall.lua
+8.0K	/usr/lib/lua/luci/view/firewall/cbi_addforward.htm
+8.0K	/usr/lib/lua/luci/view/firewall/cbi_addrule.htm
+4.0K	/usr/lib/lua/luci/view/firewall/cbi_addsnat.htm
+204K	total
+
+Package: luci-i18n-english
+Version: 0.11.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/uci-defaults/luci-i18n-english
+4.0K	/usr/lib/lua/luci/i18n/base.en.lmo
+8.0K	total
+
+Package: luci-lib-core
+Version: 0.11.1-1
+Depends: lua, libuci-lua, libubus-lua
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/config/ucitrack
+4.0K	/sbin/luci-reload
+4.0K	/usr/lib/lua/luci/ccache.lua
+4.0K	/usr/lib/lua/luci/debug.lua
+12K	/usr/lib/lua/luci/fs.lua
+4.0K	/usr/lib/lua/luci/init.lua
+20K	/usr/lib/lua/luci/ip.lua
+12K	/usr/lib/lua/luci/ltn12.lua
+12K	/usr/lib/lua/luci/model/firewall.lua
+24K	/usr/lib/lua/luci/model/network.lua
+16K	/usr/lib/lua/luci/model/uci.lua
+4.0K	/usr/lib/lua/luci/store.lua
+24K	/usr/lib/lua/luci/util.lua
+4.0K	/usr/lib/lua/luci/version.lua
+148K	total
+
+Package: luci-lib-ipkg
+Version: 0.11.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/usr/lib/lua/luci/model/ipkg.lua
+8.0K	total
+
+Package: luci-lib-json
+Version: 0.11.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+16K	/usr/lib/lua/luci/json.lua
+16K	total
+
+Package: luci-lib-nixio
+Version: 0.11.1-1
+Depends: luci-lib-core, libifaddrs
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/lib/upgrade/luci-add-conffiles.sh
+4.0K	/usr/lib/lua/bit.lua
+132K	/usr/lib/lua/nixio.so
+4.0K	/usr/lib/lua/nixio/fs.lua
+8.0K	/usr/lib/lua/nixio/util.lua
+152K	total
+
+Package: luci-lib-sys
+Version: 0.11.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+28K	/usr/lib/lua/luci/sys.lua
+12K	/usr/lib/lua/luci/sys/iptparser.lua
+4.0K	/usr/lib/lua/luci/sys/zoneinfo.lua
+20K	/usr/lib/lua/luci/sys/zoneinfo/tzdata.lua
+4.0K	/usr/lib/lua/luci/sys/zoneinfo/tzoffset.lua
+68K	total
+
+Package: luci-lib-web
+Version: 0.11.1-1
+Depends: luci-lib-core, luci-lib-sys, luci-lib-nixio, luci-lib-core, luci-sgi-cgi
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/luci 9ad93451ad3c977ed4ca90da98bcc1ea
+
+4.0K	/etc/config/luci
+4.0K	/usr/lib/lua/luci/cacheloader.lua
+40K	/usr/lib/lua/luci/cbi.lua
+8.0K	/usr/lib/lua/luci/cbi/datatypes.lua
+4.0K	/usr/lib/lua/luci/config.lua
+28K	/usr/lib/lua/luci/dispatcher.lua
+12K	/usr/lib/lua/luci/http.lua
+24K	/usr/lib/lua/luci/http/protocol.lua
+8.0K	/usr/lib/lua/luci/http/protocol/conditionals.lua
+4.0K	/usr/lib/lua/luci/http/protocol/date.lua
+4.0K	/usr/lib/lua/luci/http/protocol/mime.lua
+4.0K	/usr/lib/lua/luci/i18n.lua
+8.0K	/usr/lib/lua/luci/sauth.lua
+16K	/usr/lib/lua/luci/service.lua
+4.0K	/usr/lib/lua/luci/template.lua
+32K	/usr/lib/lua/luci/template/parser.so
+4.0K	/usr/lib/lua/luci/view/cbi/apply_xhr.htm
+4.0K	/usr/lib/lua/luci/view/cbi/browser.htm
+4.0K	/usr/lib/lua/luci/view/cbi/button.htm
+4.0K	/usr/lib/lua/luci/view/cbi/cell_valuefooter.htm
+4.0K	/usr/lib/lua/luci/view/cbi/cell_valueheader.htm
+4.0K	/usr/lib/lua/luci/view/cbi/compound.htm
+4.0K	/usr/lib/lua/luci/view/cbi/delegator.htm
+4.0K	/usr/lib/lua/luci/view/cbi/dvalue.htm
+4.0K	/usr/lib/lua/luci/view/cbi/dynlist.htm
+4.0K	/usr/lib/lua/luci/view/cbi/filebrowser.htm
+4.0K	/usr/lib/lua/luci/view/cbi/firewall_zoneforwards.htm
+4.0K	/usr/lib/lua/luci/view/cbi/firewall_zonelist.htm
+4.0K	/usr/lib/lua/luci/view/cbi/footer.htm
+4.0K	/usr/lib/lua/luci/view/cbi/full_valuefooter.htm
+4.0K	/usr/lib/lua/luci/view/cbi/full_valueheader.htm
+4.0K	/usr/lib/lua/luci/view/cbi/fvalue.htm
+4.0K	/usr/lib/lua/luci/view/cbi/header.htm
+4.0K	/usr/lib/lua/luci/view/cbi/lvalue.htm
+4.0K	/usr/lib/lua/luci/view/cbi/map.htm
+4.0K	/usr/lib/lua/luci/view/cbi/mvalue.htm
+4.0K	/usr/lib/lua/luci/view/cbi/network_ifacelist.htm
+4.0K	/usr/lib/lua/luci/view/cbi/network_netinfo.htm
+4.0K	/usr/lib/lua/luci/view/cbi/network_netlist.htm
+4.0K	/usr/lib/lua/luci/view/cbi/nsection.htm
+4.0K	/usr/lib/lua/luci/view/cbi/nullsection.htm
+4.0K	/usr/lib/lua/luci/view/cbi/simpleform.htm
+4.0K	/usr/lib/lua/luci/view/cbi/tabcontainer.htm
+4.0K	/usr/lib/lua/luci/view/cbi/tabmenu.htm
+8.0K	/usr/lib/lua/luci/view/cbi/tblsection.htm
+4.0K	/usr/lib/lua/luci/view/cbi/tsection.htm
+4.0K	/usr/lib/lua/luci/view/cbi/tvalue.htm
+4.0K	/usr/lib/lua/luci/view/cbi/ucisection.htm
+4.0K	/usr/lib/lua/luci/view/cbi/upload.htm
+4.0K	/usr/lib/lua/luci/view/cbi/value.htm
+4.0K	/usr/lib/lua/luci/view/cbi/valuefooter.htm
+4.0K	/usr/lib/lua/luci/view/cbi/valueheader.htm
+28K	/www/luci-static/resources/cbi.js
+4.0K	/www/luci-static/resources/cbi/add.gif
+4.0K	/www/luci-static/resources/cbi/apply.gif
+4.0K	/www/luci-static/resources/cbi/arrow.gif
+4.0K	/www/luci-static/resources/cbi/down.gif
+4.0K	/www/luci-static/resources/cbi/download.gif
+4.0K	/www/luci-static/resources/cbi/edit.gif
+4.0K	/www/luci-static/resources/cbi/fieldadd.gif
+4.0K	/www/luci-static/resources/cbi/file.gif
+4.0K	/www/luci-static/resources/cbi/find.gif
+4.0K	/www/luci-static/resources/cbi/folder.gif
+4.0K	/www/luci-static/resources/cbi/help.gif
+4.0K	/www/luci-static/resources/cbi/key.gif
+4.0K	/www/luci-static/resources/cbi/link.gif
+4.0K	/www/luci-static/resources/cbi/reload.gif
+4.0K	/www/luci-static/resources/cbi/remove.gif
+4.0K	/www/luci-static/resources/cbi/reset.gif
+4.0K	/www/luci-static/resources/cbi/save.gif
+4.0K	/www/luci-static/resources/cbi/up.gif
+4.0K	/www/luci-static/resources/cbi/user.gif
+456K	total
+
+Package: luci-proto-core
+Version: 0.11.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/usr/lib/lua/luci/model/cbi/admin_network/proto_dhcp.lua
+4.0K	/usr/lib/lua/luci/model/cbi/admin_network/proto_none.lua
+4.0K	/usr/lib/lua/luci/model/cbi/admin_network/proto_static.lua
+4.0K	/usr/lib/lua/luci/tools/proto.lua
+16K	total
+
+Package: luci-proto-ppp
+Version: 0.11.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/usr/lib/lua/luci/model/cbi/admin_network/proto_l2tp.lua
+4.0K	/usr/lib/lua/luci/model/cbi/admin_network/proto_ppp.lua
+4.0K	/usr/lib/lua/luci/model/cbi/admin_network/proto_pppoa.lua
+4.0K	/usr/lib/lua/luci/model/cbi/admin_network/proto_pppoe.lua
+4.0K	/usr/lib/lua/luci/model/cbi/admin_network/proto_pptp.lua
+4.0K	/usr/lib/lua/luci/model/network/proto_ppp.lua
+24K	total
+
+Package: luci-sgi-cgi
+Version: 0.11.1-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/usr/lib/lua/luci/sgi/cgi.lua
+4.0K	/www/cgi-bin/luci
+8.0K	total
+
+Package: minidlna
+Version: 1.1.2-1
+Depends: libpthread, libexif, libjpeg, libsqlite3, libffmpeg, libid3tag, libflac, libvorbis, libuuid, libtiff, libubox, libubus, libiconv-full, libintl-full
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/minidlna 9b14ee30ebe4f0aade3e70b45150b562
+
+4.0K	/etc/config/minidlna
+4.0K	/etc/init.d/minidlna
+388K	/usr/sbin/minidlnad
+396K	total
+
+Package: miniupnpd
+Version: 1.8.20130426-2
+Depends: iptables, libip4tc, libnfnetlink, libifaddrs
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/upnpd 7ac3ae02560f8ac866180b8a0b7b9d2b
+
+4.0K	/etc/config/upnpd
+4.0K	/etc/hotplug.d/iface/50-miniupnpd
+8.0K	/etc/init.d/miniupnpd
+4.0K	/etc/uci-defaults/99-miniupnpd
+168K	/usr/sbin/miniupnpd
+4.0K	/usr/share/miniupnpd/firewall.include
+192K	total
+
+Package: mount-utils
+Version: 2.21.2-1
+Depends: libmount
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+72K	/bin/findmnt
+48K	/bin/mount
+12K	/bin/mountpoint
+20K	/bin/umount
+152K	total
+
+Package: mtd
+Version: 18.1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+28K	/sbin/mtd
+28K	total
+
+Package: netatalk
+Version: 3.1.8
+Depends: libgcrypt, libopenssl, bdb
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/init.d/afpd
+16K	/usr/bin/afppasswd
+0	/usr/lib/libatalk.so.17
+720K	/usr/lib/libatalk.so.17.0.0
+0	/usr/lib/uams/uams_clrtxt.so
+0	/usr/lib/uams/uams_dhx.so
+0	/usr/lib/uams/uams_dhx2.so
+20K	/usr/lib/uams/uams_dhx2_passwd.so
+12K	/usr/lib/uams/uams_dhx_passwd.so
+8.0K	/usr/lib/uams/uams_guest.so
+12K	/usr/lib/uams/uams_passwd.so
+16K	/usr/lib/uams/uams_randnum.so
+432K	/usr/sbin/afpd
+88K	/usr/sbin/cnid_dbd
+32K	/usr/sbin/cnid_metad
+1.4M	total
+
+Package: netifd
+Version: 2013-05-13-bc4a4bb127622c76085ecec7fd20448aad7bafaf
+Depends: libuci, libnl-tiny, libubus, ubus, ubusd, jshn, kmod-bonding
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/config/portspeed
+4.0K	/etc/hotplug.d/iface/00-netstate
+8.0K	/etc/hotplug.d/iface/01-ipv6
+4.0K	/etc/hotplug.d/iface/10-sysctl
+4.0K	/etc/hotplug.d/iface/80-tcpmss
+4.0K	/etc/init.d/network
+4.0K	/etc/init.d/networkx
+4.0K	/lib/netifd/dhcp.script
+8.0K	/lib/netifd/netifd-proto.sh
+4.0K	/lib/netifd/proto/dhcp.sh
+4.0K	/lib/network/config.sh
+4.0K	/lib/network/network_arch.sh
+8.0K	/lib/network/network_init.sh
+4.0K	/sbin/devstatus
+0	/sbin/ifdown
+4.0K	/sbin/ifmac
+4.0K	/sbin/ifstatus
+4.0K	/sbin/ifup
+144K	/sbin/netifd
+4.0K	/sbin/portset
+4.0K	/sbin/portspeed
+4.0K	/usr/share/udhcpc/default.script
+236K	total
+
+Package: ntfs-3g
+Version: 2015.3.14-1-fuseint
+Depends: kmod-fuse, libpthread
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/sbin/mount.ntfs-3g
+228K	/usr/bin/ntfs-3g
+8.0K	/usr/bin/ntfs-3g.probe
+0	/usr/lib/libntfs-3g.so.86
+624K	/usr/lib/libntfs-3g.so.86.0.0
+860K	total
+
+Package: openssl-util
+Version: 1.0.2d-1
+Depends: libopenssl
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/ssl/openssl.cnf 7df26c55291b33344dc15e3935dabaf3
+
+12K	/etc/ssl/openssl.cnf
+884K	/usr/bin/openssl
+896K	total
+
+Package: openvpn-easy-rsa
+Version: 2013-01-30-2
+Depends: openssl-util
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/etc/easyrsa3/openssl-1.0.cnf
+8.0K	/etc/easyrsa3/vars
+4.0K	/etc/easyrsa3/x509-types/COMMON
+4.0K	/etc/easyrsa3/x509-types/ca
+4.0K	/etc/easyrsa3/x509-types/client
+4.0K	/etc/easyrsa3/x509-types/server
+36K	/usr/sbin/easyrsa
+68K	total
+
+Package: openvpn-openssl
+Version: 2.3.8-1
+Depends: kmod-tun, liblzo, libopenssl
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/openvpn c9fa77e14cd0f209e9d6abe103925728
+
+16K	/etc/config/openvpn
+8.0K	/etc/init.d/openvpn
+4.0K	/lib/upgrade/keep.d/openvpn
+4.0K	/usr/sbin/checkpsw.sh
+1020K	/usr/sbin/openvpn
+1.1M	total
+
+Package: opkg
+Version: 618-5
+Depends: zlib
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/opkg.conf 88dbe961b65a8cfe1be9ecdea1acedbe
+
+280K	/bin/opkg
+4.0K	/etc/opkg.conf
+284K	total
+
+Package: pppd
+Version: 2.4.3-8
+Depends: kmod-ppp, kmod-pptp, kmod-pppoe, resolveip
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/ppp/chap-secrets
+4.0K	/etc/ppp/filter
+4.0K	/etc/ppp/options
+0	/etc/ppp/resolv.conf
+4.0K	/lib/netifd/ppp-dhcp6c.script
+4.0K	/lib/netifd/ppp-down
+4.0K	/lib/netifd/ppp-up
+4.0K	/lib/netifd/pppshare-dhcp6c.script
+12K	/lib/netifd/pppshare-up
+12K	/lib/netifd/pppv6-up
+8.0K	/lib/netifd/proto/ppp.sh
+4.0K	/lib/netifd/proto/pppshare.sh
+4.0K	/lib/netifd/proto/pppv6.sh
+368K	/usr/sbin/pppd
+436K	total
+
+Package: pppoe-discovery
+Version: 3.8p
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+24K	/usr/sbin/pppoe-discovery
+24K	total
+
+Package: proftpd
+Version: 1.3.4b-1
+Depends: libubox, libubus, libiconv-full, libintl-full, librt
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/proftpd/proftpd.conf 4ca27a4955a43432e0c24a94e1a1e9a7
+
+4.0K	/etc/init.d/proftpd
+4.0K	/etc/proftpd/alias.conf
+4.0K	/etc/proftpd/proftpd.conf
+4.0K	/etc/proftpd/proftpd.conf.orig
+32K	/usr/bin/ftpasswd
+20K	/usr/bin/ftpcount
+12K	/usr/bin/ftptop
+32K	/usr/bin/ftpwho
+12K	/usr/sbin/ftpshut
+0	/usr/sbin/in.proftpd
+1.2M	/usr/sbin/proftpd
+1.3M	total
+
+Package: radvd
+Version: 1.7-1
+Depends: kmod-ipv6, libdaemon, libifaddrs
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/radvd 60c3ad8ad87d5dd14799fe7a5db73f72
+
+4.0K	/etc/config/radvd
+12K	/etc/init.d/radvd
+444K	/usr/sbin/radvd
+460K	total
+
+Package: radvdump
+Version: 1.7-1
+Depends: kmod-ipv6, libdaemon, libifaddrs
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+32K	/usr/sbin/radvdump
+32K	total
+
+Package: resolveip
+Version: 2
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/usr/bin/resolveip
+8.0K	total
+
+Package: samba36-server
+Version: 3.6.25-1.1
+Depends: libuuid, libubox, libubus, usb_sync
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/config/samba
+8.0K	/etc/init.d/samba
+0	/etc/samba/lognames.deny
+128K	/etc/samba/lowcase.dat
+4.0K	/etc/samba/smb.conf.template
+4.0K	/etc/samba/smbusers
+128K	/etc/samba/upcase.dat
+64K	/etc/samba/valid.dat
+0	/usr/sbin/nmbd
+4.5M	/usr/sbin/samba_multicall
+0	/usr/sbin/smbd
+0	/usr/sbin/smbpasswd
+4.8M	total
+
+Package: swap-utils
+Version: 2.21.2-1
+Depends: libblkid
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+40K	/sbin/mkswap
+16K	/sbin/swaplabel
+0	/sbin/swapoff
+40K	/sbin/swapon
+96K	total
+
+Package: tc
+Version: 3.3.0-1
+Depends: kmod-sched-core
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/hotplug.d/iface/30-teql
+4.0K	/lib/debug/tc
+316K	/usr/sbin/tc
+324K	total
+
+Package: terminfo
+Version: 5.7-5
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/usr/share/terminfo/a/ansi
+4.0K	/usr/share/terminfo/d/dumb
+4.0K	/usr/share/terminfo/l/linux
+4.0K	/usr/share/terminfo/r/rxvt
+4.0K	/usr/share/terminfo/r/rxvt-unicode
+4.0K	/usr/share/terminfo/s/screen
+4.0K	/usr/share/terminfo/v/vt100
+4.0K	/usr/share/terminfo/v/vt102
+4.0K	/usr/share/terminfo/x/xterm
+4.0K	/usr/share/terminfo/x/xterm-color
+40K	total
+
+Package: tiff-utils
+Version: 4.0.3-1
+Depends: libtiff
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+20K	/usr/bin/bmp2tiff
+20K	/usr/bin/fax2ps
+16K	/usr/bin/fax2tiff
+20K	/usr/bin/gif2tiff
+16K	/usr/bin/pal2rgb
+16K	/usr/bin/ppm2tiff
+12K	/usr/bin/ras2tiff
+28K	/usr/bin/raw2tiff
+16K	/usr/bin/rgb2ycbcr
+24K	/usr/bin/thumbnail
+16K	/usr/bin/tiff2bw
+120K	/usr/bin/tiff2pdf
+128K	/usr/bin/tiff2ps
+16K	/usr/bin/tiff2rgba
+24K	/usr/bin/tiffcmp
+48K	/usr/bin/tiffcp
+184K	/usr/bin/tiffcrop
+16K	/usr/bin/tiffdither
+24K	/usr/bin/tiffdump
+20K	/usr/bin/tiffinfo
+28K	/usr/bin/tiffmedian
+16K	/usr/bin/tiffset
+16K	/usr/bin/tiffsplit
+844K	total
+
+Package: ubus
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libubus, libblobmsg-json, ubusd
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+12K	/bin/ubus
+12K	total
+
+Package: ubusd
+Version: 2013-01-13-bf566871bd6a633e4504c60c6fc55b2a97305a50
+Depends: libubox
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/init.d/ubus
+24K	/sbin/ubusd
+28K	total
+
+Package: uci
+Version: 2013-01-04.1-1
+Depends: libuci
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/lib/config/uci.sh
+16K	/sbin/uci
+4.0K	/sbin/uci_commit_flash
+24K	total
+
+Package: uhttpd
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: libubox, libubus, libblobmsg-json, libuci
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/uhttpd 83ac7209f0c6f356fc327bacd04cf2d4
+
+4.0K	/etc/config/uhttpd
+4.0K	/etc/hotplug.d/iface/15-uhttpd
+8.0K	/etc/init.d/uhttpd
+4.0K	/lib/upgrade/keep.d/uhttpd
+60K	/usr/sbin/uhttpd
+80K	total
+
+Package: uhttpd-mod-tls
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: uhttpd, libopenssl
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/usr/lib/uhttpd_tls.so
+8.0K	total
+
+Package: uhttpd-mod-ubus
+Version: 2012-10-30-e57bf6d8bfa465a50eea2c30269acdfe751a46fd
+Depends: uhttpd, libubus, libblobmsg-json
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+20K	/usr/lib/uhttpd_ubus.so
+20K	total
+
+Package: uuidd
+Version: 2.21.2-1
+Depends: libuuid
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+20K	/usr/sbin/uuidd
+20K	total
+
+Package: uuidgen
+Version: 2.21.2-1
+Depends: libuuid
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/usr/bin/uuidgen
+8.0K	total
+
+Package: wide-dhcpv6-client
+Version: 20080615-11
+Depends: kmod-ipv6
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/lib/netifd/dhcp6c.script
+8.0K	/lib/netifd/proto/dhcp6c.sh
+4.0K	/lib/upgrade/keep.d/wide-dhcpv6-client
+316K	/usr/sbin/dhcp6c
+332K	total
+
+Package: wide-dhcpv6-server
+Version: 20080615-11
+Depends: kmod-ipv6
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+Conffiles:
+ /etc/config/dhcp6s 2b4045e19472ad6e5a51fb78a422d340
+
+4.0K	/etc/config/dhcp6s
+4.0K	/etc/dhcp6cctlkey
+4.0K	/etc/dhcp6s.conf
+4.0K	/etc/dhcp6sctlkey
+4.0K	/etc/init.d/dhcp6s
+284K	/usr/sbin/dhcp6s
+304K	total
+
+Package: xl2tpd
+Version: 1.1.12-1
+Depends: kmod-pppol2tp, kmod-ppp, pppd, ip, resolveip
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+8.0K	/lib/netifd/proto/l2tp.sh
+124K	/usr/sbin/xl2tpd
+132K	total
+
+Package: zlib
+Version: 1.2.7-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+0	/usr/lib/libz.so
+0	/usr/lib/libz.so.1
+164K	/usr/lib/libz.so.1.2.7
+164K	total
+
+Package: zoneinfo-core
+Version: 2011n-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/etc/init.d/time_settings
+16K	/lib/time_settings/set_time
+92K	/usr/bin/zic
+4.0K	/usr/share/zoneinfo/CET
+4.0K	/usr/share/zoneinfo/CST6CDT
+4.0K	/usr/share/zoneinfo/EET
+4.0K	/usr/share/zoneinfo/EST
+4.0K	/usr/share/zoneinfo/EST5EDT
+4.0K	/usr/share/zoneinfo/Eire
+4.0K	/usr/share/zoneinfo/GB
+4.0K	/usr/share/zoneinfo/GB-Eire
+4.0K	/usr/share/zoneinfo/GMT
+4.0K	/usr/share/zoneinfo/GMT+0
+4.0K	/usr/share/zoneinfo/GMT+1
+4.0K	/usr/share/zoneinfo/GMT+10
+4.0K	/usr/share/zoneinfo/GMT+11
+4.0K	/usr/share/zoneinfo/GMT+12
+4.0K	/usr/share/zoneinfo/GMT+2
+4.0K	/usr/share/zoneinfo/GMT+3
+4.0K	/usr/share/zoneinfo/GMT+4
+4.0K	/usr/share/zoneinfo/GMT+5
+4.0K	/usr/share/zoneinfo/GMT+6
+4.0K	/usr/share/zoneinfo/GMT+7
+4.0K	/usr/share/zoneinfo/GMT+8
+4.0K	/usr/share/zoneinfo/GMT+9
+4.0K	/usr/share/zoneinfo/GMT-0
+4.0K	/usr/share/zoneinfo/GMT-1
+4.0K	/usr/share/zoneinfo/GMT-10
+4.0K	/usr/share/zoneinfo/GMT-11
+4.0K	/usr/share/zoneinfo/GMT-12
+4.0K	/usr/share/zoneinfo/GMT-13
+4.0K	/usr/share/zoneinfo/GMT-14
+4.0K	/usr/share/zoneinfo/GMT-2
+4.0K	/usr/share/zoneinfo/GMT-3
+4.0K	/usr/share/zoneinfo/GMT-4
+4.0K	/usr/share/zoneinfo/GMT-5
+4.0K	/usr/share/zoneinfo/GMT-6
+4.0K	/usr/share/zoneinfo/GMT-7
+4.0K	/usr/share/zoneinfo/GMT-8
+4.0K	/usr/share/zoneinfo/GMT-9
+4.0K	/usr/share/zoneinfo/GMT0
+4.0K	/usr/share/zoneinfo/Greenwich
+4.0K	/usr/share/zoneinfo/HST
+4.0K	/usr/share/zoneinfo/MET
+4.0K	/usr/share/zoneinfo/MST
+4.0K	/usr/share/zoneinfo/MST7MDT
+4.0K	/usr/share/zoneinfo/PRC
+4.0K	/usr/share/zoneinfo/PST8PDT
+4.0K	/usr/share/zoneinfo/ROC
+4.0K	/usr/share/zoneinfo/ROK
+4.0K	/usr/share/zoneinfo/UCT
+4.0K	/usr/share/zoneinfo/UTC
+4.0K	/usr/share/zoneinfo/Universal
+4.0K	/usr/share/zoneinfo/W-SU
+4.0K	/usr/share/zoneinfo/WET
+4.0K	/usr/share/zoneinfo/Zulu
+20K	/usr/share/zoneinfo/zone.tab
+344K	total
+
+Package: zoneinfo-simple
+Version: 2011n-1
+Provides:
+Status: install ok installed
+Architecture: model_mtk_mt762x
+
+4.0K	/usr/share/zoneinfo/Adelaide
+4.0K	/usr/share/zoneinfo/Anchorage
+4.0K	/usr/share/zoneinfo/Brisbane
+4.0K	/usr/share/zoneinfo/Cairo
+4.0K	/usr/share/zoneinfo/Caracas
+4.0K	/usr/share/zoneinfo/Chicago
+4.0K	/usr/share/zoneinfo/Darwin
+4.0K	/usr/share/zoneinfo/Denver
+4.0K	/usr/share/zoneinfo/Dhaka
+4.0K	/usr/share/zoneinfo/Dubai
+4.0K	/usr/share/zoneinfo/Hong_Kong
+4.0K	/usr/share/zoneinfo/Honolulu
+4.0K	/usr/share/zoneinfo/Karachi
+4.0K	/usr/share/zoneinfo/London
+4.0K	/usr/share/zoneinfo/Los_Angeles
+4.0K	/usr/share/zoneinfo/Moscow
+4.0K	/usr/share/zoneinfo/New_York
+4.0K	/usr/share/zoneinfo/Noumea
+4.0K	/usr/share/zoneinfo/Paris
+4.0K	/usr/share/zoneinfo/Perth
+4.0K	/usr/share/zoneinfo/Sao_Paulo
+4.0K	/usr/share/zoneinfo/Sydney
+4.0K	/usr/share/zoneinfo/Tokyo
+92K	total
+

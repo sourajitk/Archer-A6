@@ -1,0 +1,19 @@
+Source-Makefile: package/feeds/iplatform/gd/Makefile
+Package: gd
+Version: 2.1.1-2
+Depends:  +zlib +png +jpeg +tiff
+Menu-Depends: 
+Provides: 
+Build-Depends: libtool libintl libiconv
+Section: TP-LINK
+Category: TP-LINK iplatform apps
+Title: A lightweight C library that eases the writing of UNIX daemons
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: gd-2.1.1.tar.gz
+Type: ipkg
+Description: A lightweight C library that eases the writing of UNIX daemons
+http://0pointer.de/lennart/projects/libdaemon/
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

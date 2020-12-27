@@ -1,0 +1,34 @@
+Source-Makefile: feeds/iplatform/opensource/udt4/Makefile
+Package: libudt
+Submenu: P2P
+Version: 4.11-1
+Depends:  +libpthread +libstdcpp
+Menu-Depends: 
+Provides: 
+Section: TP-LINK	
+Category: TP-LINK iplatform apps
+Title: libudt
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Description: 	UDT4: UDP-based Data Transfer Library - version 4
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+Package: udtapp
+Submenu: P2P
+Version: 4.11-1
+Depends:  +libpthread +libstdcpp +libudt
+Menu-Depends: 
+Provides: 
+Section: TP-LINK	
+Category: TP-LINK iplatform apps
+Title: udtapp
+Maintainer: OpenWrt Developers Team <openwrt-devel@openwrt.org>
+Source: 
+Type: ipkg
+Description: udtapp
+OpenWrt Developers Team <openwrt-devel@openwrt.org>
+@@
+
+

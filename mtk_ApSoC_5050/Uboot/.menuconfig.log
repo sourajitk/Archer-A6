@@ -1,0 +1,15 @@
+config.in: line 2: TOOLCHAIN_DIR: command not found
+config.in: line 1116: [: missing `]'
+config.in: line 1340: 800Mhz: command not found
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
+sed: can't read arch/mips/defconfig: No such file or directory
